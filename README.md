@@ -1,6 +1,8 @@
 # Scripture Memory Verse Validator
 
-Welcome to my project to build a Scripture Memory Verse Validator. This is a mini project used to introduce React to beginners learning web-application development for the Uni Navigators Computer Training Programme, Fall 2022.
+Welcome to my project to build a Scripture Memory Verse Validator. 
+
+This is a mini project used to introduce React to beginners learning web-application development for the Uni Navigators Computer Training Programme, Fall 2022.
 
 __Functions:__
 1. View memory bible verses according to TMS 60 (Topical Memory System)
