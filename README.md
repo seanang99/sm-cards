@@ -1,12 +1,18 @@
-# GitHub Codespaces ♥️ React
+# Scripture Memory Verse Validator
 
-Welcome to your shiny new Codespace running React! We've got everything fired up and running for you to explore React.
+Welcome to my project to build a Scripture Memory Verse Validator. This is a mini project used to introduce React to beginners learning web-application development for the Uni Navigators Computer Training Programme, Fall 2022.
 
-You've got a blank canvas to work on from a git perspective as well. There's a single initial commit with the what you're seeing right now - where you go from here is up to you!
+__Functions:__
+1. View memory bible verses according to TMS 60 (Topical Memory System)
+2. Filter by memory packs
+3. Test Mode which hides the title and verse and replaces it with input for the user to test themselves. `[in-progress]`
+4. Validate input based on Uni Navigators Scripture Memory Contest rules `[to-do]`
+5. Scoring Mechanism `[to-do]`
+6. Link client application to custom API (another project) instead of using mock data `[to-do]`
 
-Everything you do here is contained within this one codespace. There is no repository on GitHub yet. If and when you’re ready you can click "Publish Branch" and we’ll create your repository and push up your project. If you were just exploring then and have no further need for this code then you can simply delete your codespace and it's gone forever.
+_Note: Verses are in NIV 84._
 
-This project was bootstrapped for you with [Create React App](https://github.com/facebook/create-react-app).
+Author: Sean A, 23 Dec 2022
 
 ## Available Scripts
 
@@ -46,28 +52,6 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
 ### Deployment
 
