@@ -3,11 +3,13 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Form from 'react-bootstrap/Form';
 
+import './style.scss';
+
 const Cards = (props) => {
     const { title, subtitle, content, test } = props;
 
     return (
-        <Card>
+        <Card className={test ? "card__test" : ""}>
             {test ?
                 <>
                     <Card.Header>{subtitle}</Card.Header>
