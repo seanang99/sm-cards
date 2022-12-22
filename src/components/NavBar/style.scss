@@ -1,0 +1,23 @@
+.nav-bar {
+  display: flex;
+  align-items: center;
+  padding: 10px 40px;
+  background-color: #ffffff;
+
+  &__right {
+    display: flex;
+    align-items: baseline;
+    gap: 20px;
+  }
+}
+
+.form-check-label {
+    width: max-content;
+}
+
+.navbar-brand {
+  font-weight: 600;
+}
+
+// /* import bootstrap to set changes */
+@import "../../../node_modules/bootstrap/scss/bootstrap";
