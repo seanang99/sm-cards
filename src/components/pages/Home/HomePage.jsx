@@ -1,46 +1,56 @@
-import React from 'react';
-import Navbar from 'react-bootstrap/Navbar';
-import Container from 'react-bootstrap/Container';
-import Form from 'react-bootstrap/Form';
+import { React, useState } from "react";
 import Cards from "../../Cards";
+import NavBar from "../../NavBar";
+import Footer from "../../Footer/Footer";
 
-import { MOCK_MEMORY_VERSE_PACK, MOCK_VERSES } from '../../../mocks/MockVerses';
+import { MOCK_VERSES } from "../../../mocks/MockVerses";
+
+import "./style.scss";
 
 const HomePage = () => {
-    return (
-        <div className='page-layout'>
-            <header>
-                <Navbar bg='light' expand='lg'>
-                    <Container>
-                        <Navbar.Brand href='/'>SM</Navbar.Brand>
-                        <div className='nav-bar__right'>
-                            <Form>
-                                <Form.Check type='switch' id='test-mode-switch' label='Test Mode' />
-                                <Form.Select className='nav-bar__select' aria-label='Select Memory Verse Pack'>
-                                    <option>Select Pack</option>
-                                    {MOCK_MEMORY_VERSE_PACK.map((pack) => {
-                                        return (
-                                            <option key={pack} id={pack} value={pack}>{pack}</option>
-                                        );
-                                    })}
-                                </Form.Select>
-                            </Form>
-                        </div>
-                    </Container>
-                </Navbar>
-            </header>
+  const [testMode, setTestMode] = useState(false);
+  const [mvPack, setMvPack] = useState("");
 
-            <div className='page-body'>
-                {/* Cards */}
-                {MOCK_VERSES.map((v) => {
-                    return (
-                        <Cards key={`${v.id} + ${v.memory_pack}`} test={false} title={v.title} subtitle={v.reference} content={v.verse} />
-                    )
-                })}
-            </div>
-        </div>
+  const filterMemoryVerses = (memory_pack) => {
+    return MOCK_VERSES.filter((v) => v.memory_pack === memory_pack);
+  };
 
-    );
+  let memoryVerses = filterMemoryVerses(mvPack);
+
+  return (
+    <div className="page-layout">
+      <header>
+        <NavBar
+          testMode={testMode}
+          setTestMode={setTestMode}
+          setPack={setMvPack}
+        />
+      </header>
+
+      <div className="page-body">
+        {memoryVerses.length ? (
+          <>
+            {memoryVerses.map((v) => {
+              return (
+                <Cards
+                  key={`${v.id} + ${v.memory_pack}`}
+                  test={testMode}
+                  title={v.title}
+                  subtitle={v.reference}
+                  content={v.verse}
+                />
+              );
+            })}
+          </>
+        ) : (
+          <>
+            <p> Please select a Memory Pack</p>
+          </>
+        )}
+      </div>
+      <Footer />
+    </div>
+  );
 };
 
 export default HomePage;
