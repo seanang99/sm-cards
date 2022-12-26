@@ -1,6 +1,10 @@
 import React from "react";
-import './style.scss';
+import "./style.scss";
 
+/**
+ * Renders Footer component by default
+ * @returns Footer component
+ */
 const Footer = () => {
   return (
     <div className="footer">
