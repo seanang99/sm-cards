@@ -7,6 +7,11 @@ import { MOCK_MEMORY_VERSE_PACK } from "../../mocks/MockVerses";
 
 import "./style.scss";
 
+/**
+ * Renders NavBar component with props to control the test-mode selection and memory pack
+ * @params {testMode, setTestMode, setPack} props
+ * @returns NavBar component
+ */
 const NavBar = (props) => {
   const { testMode, setTestMode, setPack } = props;
 
