@@ -1,21 +1,47 @@
-import { React, useState } from "react";
+import { React, useState, useEffect, memo } from "react";
 import Cards from "../../Cards";
 import NavBar from "../../NavBar";
 import Footer from "../../Footer/Footer";
-
-import { MOCK_VERSES } from "../../../mocks/MockVerses";
+import axios from "axios";
 
 import "./style.scss";
 
 const HomePage = () => {
   const [testMode, setTestMode] = useState(false);
+  const [packs, setPacks] = useState([]);
+  const [allVerses, setAllVerses] = useState([]);
+  const [verses, setVerses] = useState([]);
   const [mvPack, setMvPack] = useState("");
 
-  const filterMemoryVerses = (memory_pack) => {
-    return MOCK_VERSES.filter((v) => v.memory_pack === memory_pack);
-  };
+  // API call to get Memory Packs and all verses on load
+  useEffect(() => {
+    const getMemoryPack = () => {
+      axios.get(`${process.env.REACT_APP_API_URL}/packs`).then((res) => {
+        const data = res.data;
+        setPacks(data);
+      });
+    };
+    const getVerses = () => {
+      axios.get(`${process.env.REACT_APP_API_URL}/verses`).then((res) => {
+        const data = res.data;
+        setAllVerses(data.verses);
+      });
+    };
+    getMemoryPack();
+    getVerses();
+  }, []);
 
-  let memoryVerses = filterMemoryVerses(mvPack);
+  // Filter verses to display when mvPack is selected
+  useEffect(() => {
+    const filterMemoryVerses = (memory_pack) => {
+      if (memory_pack === 'TMS - 60') {
+        return allVerses.filter((v) => (v.memory_pack.includes("TMS 60")));
+      }
+      return allVerses.filter((v) => (v.memory_pack === memory_pack));
+    };
+
+    setVerses(filterMemoryVerses(mvPack));
+  }, [allVerses, mvPack]);
 
   return (
     <div className="page-layout">
@@ -23,14 +49,15 @@ const HomePage = () => {
         <NavBar
           testMode={testMode}
           setTestMode={setTestMode}
+          pack={packs}
           setPack={setMvPack}
         />
       </header>
 
       <div className="page-body">
-        {memoryVerses.length ? (
+        {verses.length ? (
           <>
-            {memoryVerses.map((v) => {
+            {verses.map((v) => {
               return (
                 <Cards
                   key={`${v.id} + ${v.memory_pack}`}
