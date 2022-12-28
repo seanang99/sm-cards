@@ -3,8 +3,6 @@ import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
 import Form from "react-bootstrap/Form";
 
-import { MOCK_MEMORY_VERSE_PACK } from "../../mocks/MockVerses";
-
 import "./style.scss";
 
 /**
@@ -13,7 +11,7 @@ import "./style.scss";
  * @returns NavBar component
  */
 const NavBar = (props) => {
-  const { testMode, setTestMode, setPack } = props;
+  const { testMode, setTestMode, pack, setPack } = props;
 
   return (
     <>
@@ -34,10 +32,10 @@ const NavBar = (props) => {
               onChange={(e) => setPack(e.target.value)}
             >
               <option>Select Pack</option>
-              {MOCK_MEMORY_VERSE_PACK.map((pack) => {
+              {pack.map((p) => {
                 return (
-                  <option key={pack} id={pack} value={pack}>
-                    {pack}
+                  <option key={p.id} id={p.id} value={p.id}>
+                    {p.pack}
                   </option>
                 );
               })}
