@@ -12,7 +12,7 @@ import "./style.scss";
  */
 const NavBar = (props) => {
   const { testMode, setTestMode, pack, setPack } = props;
-
+  
   return (
     <>
       <Navbar fixed="top" bg="light" expand="lg">
@@ -32,10 +32,10 @@ const NavBar = (props) => {
               onChange={(e) => setPack(e.target.value)}
             >
               <option>Select Pack</option>
-              {pack.map((p) => {
+              {Object.entries(pack).map((p) => {
                 return (
-                  <option key={p.id} id={p.id} value={p.id}>
-                    {p.pack}
+                  <option key={p[0]} id={p[0]} value={p[1]}>
+                    {p[1]}
                   </option>
                 );
               })}
