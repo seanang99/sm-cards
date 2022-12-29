@@ -1,4 +1,4 @@
-import { React, useState, useEffect, memo } from "react";
+import { React, useState, useEffect } from "react";
 import Cards from "../../Cards";
 import NavBar from "../../NavBar";
 import Footer from "../../Footer/Footer";
