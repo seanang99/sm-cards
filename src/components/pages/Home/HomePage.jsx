@@ -12,6 +12,7 @@ const HomePage = () => {
   const [allVerses, setAllVerses] = useState([]);
   const [verses, setVerses] = useState([]);
   const [mvPack, setMvPack] = useState("");
+  const [score, setScore] = useState(0);
 
   // API call to get Memory Packs and all verses on load
   useEffect(() => {
@@ -51,6 +52,7 @@ const HomePage = () => {
           setTestMode={setTestMode}
           pack={packs}
           setPack={setMvPack}
+          score={score}
         />
       </header>
 
@@ -65,6 +67,8 @@ const HomePage = () => {
                   title={v.title}
                   subtitle={v.reference}
                   content={v.verse}
+                  score={score}
+                  setScore={setScore}
                 />
               );
             })}
