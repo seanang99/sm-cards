@@ -9,6 +9,10 @@
     align-items: baseline;
     gap: 20px;
   }
+
+  &__score {
+    white-space: nowrap;
+  }
 }
 
 .form-check-label {

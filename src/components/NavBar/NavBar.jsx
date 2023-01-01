@@ -11,14 +11,16 @@ import "./style.scss";
  * @returns NavBar component
  */
 const NavBar = (props) => {
-  const { testMode, setTestMode, pack, setPack } = props;
-  
+  const { testMode, setTestMode, pack, setPack, score } = props;
+
   return (
     <>
       <Navbar fixed="top" bg="light" expand="lg">
         <Container>
           <Navbar.Brand href="/">SM</Navbar.Brand>
+
           <div className="nav-bar__right">
+            <p className="nav-bar__score">Score: {score}</p>
             <Form.Check
               type="switch"
               id="test-mode-switch"

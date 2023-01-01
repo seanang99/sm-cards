@@ -8,9 +8,21 @@
   }
 }
 
+.form-control-validator {
+  color: red;
+
+  &__hidden {
+    display: none
+  }
+}
+
 .form-input {
   min-width: 18rem;
   margin-bottom: 1rem;
+}
+
+.form-input-invalid.form-control {
+  border: 1px solid red;
 }
 
 .form-button {
