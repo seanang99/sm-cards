@@ -10,50 +10,56 @@ export const checkTitleAndVerse = (res) => {
         /* eslint-disable */
         const uTitle = userTitle.toLowerCase().replace(/[^\w\s\']|_/g, "").replace(/\s+/g, " ");
         const cTitle = title.toLowerCase().replace(/[^\w\s\']|_/g, "").replace(/\s+/g, " ");
-        const cVerse = verse.toLowerCase().replace(/[^\w\s\']|_/g, "").replace(/\s+/g, " ").split(' ');
-        const uVerse = userVerse.toLowerCase().replace(/[^\w\s\']|_/g, "").replace(/\s+/g, " ").split(' ');
+        const cVerse = verse.toLowerCase().replace(/[^\w\s\']|_/g, "").replace(/\s+/g, " ") //.split(' ');
+        const uVerse = userVerse.toLowerCase().replace(/[^\w\s\']|_/g, "").replace(/\s+/g, " ") //.split(' ');
         /* eslint-enable */
 
-        let score = 0;
+        let correctTitle = uTitle !== cTitle ? false : true;
+        let correctVerse = uVerse !== cVerse ? false : true;
+        let correct = correctTitle && correctVerse;
 
-        if (uTitle !== cTitle) {
-            score += 1;
-        }
+        return { correct, correctTitle, correctVerse }
 
-        let cIndex = 0, uIndex = 0;
+        // let score = 0;
 
-        while (uIndex < uVerse.length - 1) {
+        // if (uTitle !== cTitle) {
+        //     score += 1;
+        // }
 
-            if (score >= 5) {
-                break;
-            }
+        // let cIndex = 0, uIndex = 0;
 
-            if (uVerse[uIndex] !== cVerse[cIndex]) {
+        // while (uIndex < uVerse.length - 1) {
 
-                /**
-                 * Potentially Missing word -> Find the word in verse  
-                 * 1) If indexOf word is greater than cIndex (which it should be), it means that there are extra words
-                 * 2) Add to score 
-                 * */
-                const _uIndex = uVerse.indexOf(cVerse[cIndex]);
+        //     if (score >= 5) {
+        //         break;
+        //     }
 
-                if (_uIndex === -1) {
-                    // Missing words
-                    uVerse.splice(uIndex, uIndex - 1, cVerse[cIndex]);
-                    score++;
-                } else if (_uIndex !== cIndex) {
-                    score = score + (_uIndex - cIndex);
-                    uIndex = _uIndex;
-                }
-                console.log({ _uIndex, uVerse: uVerse[uIndex], cVerse: cVerse[cIndex], arr: uVerse, uIndex, score });
-            }
+        //     if (uVerse[uIndex] !== cVerse[cIndex]) {
 
-            cIndex++;
-            uIndex++;
-        }
+        //         /**
+        //          * Potentially Missing word -> Find the word in verse  
+        //          * 1) If indexOf word is greater than cIndex (which it should be), it means that there are extra words
+        //          * 2) Add to score 
+        //          * */
+        //         const _uIndex = uVerse.indexOf(cVerse[cIndex]);
 
-        const correct = score === 0 ? true : false
-        return { score: Math.min(score, 5), correct };
+        //         if (_uIndex === -1) {
+        //             // Missing words
+        //             uVerse.splice(uIndex, uIndex - 1, cVerse[cIndex]);
+        //             score++;
+        //         } else if (_uIndex !== cIndex) {
+        //             score = score + (_uIndex - cIndex);
+        //             uIndex = _uIndex;
+        //         }
+        //         console.log({ _uIndex, uVerse: uVerse[uIndex], cVerse: cVerse[cIndex], arr: uVerse, uIndex, score });
+        //     }
+
+        //     cIndex++;
+        //     uIndex++;
+        // }
+
+        // const correct = score === 0 ? true : false
+        // return { score: Math.min(score, 5), correct };
     }
 }
 
