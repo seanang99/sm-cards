@@ -28,3 +28,24 @@
 .form-button {
   margin-right: 0.4rem;
 }
+
+.feedback {
+  font-weight: 600;
+  margin: 0.4rem 0;
+  
+  &-correct {
+    color: green;
+  }
+
+  &-wrong {
+    color: red
+  }
+}
+
+.corrections-title {
+  font-weight: 600;
+}
+
+.corrections-verse {
+  margin: 0.4rem, 0
+}
