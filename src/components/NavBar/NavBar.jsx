@@ -20,7 +20,7 @@ const NavBar = (props) => {
           <Navbar.Brand href="/">SM</Navbar.Brand>
 
           <div className="nav-bar__right">
-            <p className="nav-bar__score">Score: {score}</p>
+            {/* <p className="nav-bar__score">Score: {score}</p> */}
             <Form.Check
               type="switch"
               id="test-mode-switch"
