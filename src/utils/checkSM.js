@@ -8,10 +8,10 @@ export const checkTitleAndVerse = (res) => {
 
     if (typeof (userTitle) === 'string' && typeof (userVerse) === 'string' && typeof (title) === 'string' && typeof (verse) === 'string') {
         /* eslint-disable */
-        const uTitle = userTitle.toLowerCase().replace(/[^\w\s\']|_/g, "").replace(/\s+/g, " ");
-        const cTitle = title.toLowerCase().replace(/[^\w\s\']|_/g, "").replace(/\s+/g, " ");
-        const cVerse = verse.toLowerCase().replace(/[^\w\s\']|_/g, "").replace(/\s+/g, " ") //.split(' ');
-        const uVerse = userVerse.toLowerCase().replace(/[^\w\s\']|_/g, "").replace(/\s+/g, " ") //.split(' ');
+        const uTitle = userTitle.toLowerCase().replace(/[^\w\s\']|_/g, "").replace(/\s+/g, "");
+        const cTitle = title.toLowerCase().replace(/[^\w\s\']|_/g, "").replace(/\s+/g, "");
+        const cVerse = verse.toLowerCase().replace(/[^\w\s\']|_/g, "").replace(/\s+/g, "") //.split(' ');
+        const uVerse = userVerse.toLowerCase().replace(/[^\w\s\']|_/g, "").replace(/\s+/g, "") //.split(' ');
         /* eslint-enable */
 
         let correctTitle = uTitle !== cTitle ? false : true;
