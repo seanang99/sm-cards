@@ -9,5 +9,11 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    margin: 5rem 2rem 2rem 2rem;
+    margin: 3rem 2rem 2rem 2rem;
 }
+
+@media screen and (max-width: 420px) {
+    .page-body {
+        margin: 3rem 1rem 1rem 1rem;
+    }
+  }
