@@ -62,7 +62,7 @@ export const checkTitleAndVerse = (res) => {
         // return { score: Math.min(score, 5), correct };
     }
 }
-
+/* eslint-disable */
 export function findLCS(str1, str2) {
     let longest = 0, longestSubstring = "", index = -1;
 
@@ -133,3 +133,4 @@ export function findLongestCommonSubsequence(A, B, m, n) {
 
     return { result, subStrings };
 }
+/* eslint-enable */
