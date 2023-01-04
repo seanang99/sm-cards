@@ -4,7 +4,7 @@
   margin: 1rem;
 
   &__test {
-    width: 24rem;
+    width: auto;
   }
 }
 
@@ -48,4 +48,15 @@
 
 .corrections-verse {
   margin: 0.4rem, 0
+}
+
+
+@media screen and (max-width: 420px) {
+  .card-body {
+    min-width: 309px;
+  }
+
+  .form-input {
+    min-width: 14rem;
+  }
 }
