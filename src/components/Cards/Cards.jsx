@@ -13,7 +13,7 @@ import "./style.scss";
  * @returns Card component
  */
 const Cards = (props) => {
-  const { title, subtitle, content, test, score, setScore } = props;
+  const { title, subtitle, content, test } = props;
 
   const [userTitle, setUserTitle] = useState("");
   const [userVerse, setUserVerse] = useState("");

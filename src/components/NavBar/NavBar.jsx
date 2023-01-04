@@ -11,7 +11,7 @@ import "./style.scss";
  * @returns NavBar component
  */
 const NavBar = (props) => {
-  const { testMode, setTestMode, pack, setPack, score } = props;
+  const { testMode, setTestMode, pack, setPack } = props;
 
   return (
     <>
