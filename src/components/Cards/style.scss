@@ -1,19 +1,61 @@
 .card {
-    min-height: 10rem;
-    max-width: 24rem;
-    margin: 1rem;
-  
-    &__test {
-      width: 24rem;
-    }
+  min-height: 10rem;
+  max-width: 24rem;
+  margin: 1rem;
+
+  &__test {
+    width: auto;
+  }
+}
+
+.form-control-validator {
+  color: red;
+
+  &__hidden {
+    display: none;
+  }
+}
+
+.form-input {
+  min-width: 18rem;
+  margin-bottom: 1rem;
+}
+
+.form-input-invalid.form-control {
+  border: 1px solid red;
+}
+
+.form-button {
+  margin-right: 0.4rem;
+}
+
+.feedback {
+  font-weight: 600;
+  margin: 0.4rem 0;
+
+  &__correct {
+    color: green;
   }
   
+  &__wrong {
+    color: red;
+  }
+}
+
+.correction-title {
+  font-weight: 600;
+}
+
+.correction-verse {
+  margin: 0.4rem 0;
+}
+
+@media screen and (max-width: 420px) {
+  .card-body {
+    min-width: 309px;
+  }
+
   .form-input {
-    min-width: 18rem;
-    margin-bottom: 1rem;
+    min-width: 14rem;
   }
-  
-  .form-button {
-    margin-right: 0.4rem;
-  }
-  
+}
