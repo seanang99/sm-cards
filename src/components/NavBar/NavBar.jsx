@@ -5,15 +5,22 @@ import Form from "react-bootstrap/Form";
 
 import "./style.scss";
 
+/**
+ * Renders NavBar component with props to control the test-mode selection and memory pack
+ * @params {testMode, setTestMode, setPack} props
+ * @returns NavBar component
+ */
 const NavBar = (props) => {
   const { testMode, setTestMode, pack, setPack } = props;
-  // console.log(Object.entries(pack));
+
   return (
     <>
-      <Navbar bg="light" expand="lg">
+      <Navbar fixed="top" bg="light" expand="lg">
         <Container>
           <Navbar.Brand href="/">SM</Navbar.Brand>
+
           <div className="nav-bar__right">
+            {/* <p className="nav-bar__score">Score: {score}</p> */}
             <Form.Check
               type="switch"
               id="test-mode-switch"

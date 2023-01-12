@@ -12,7 +12,7 @@
   color: red;
 
   &__hidden {
-    display: none;
+    display: none
   }
 }
 
@@ -32,23 +32,24 @@
 .feedback {
   font-weight: 600;
   margin: 0.4rem 0;
-
-  &__correct {
+  
+  &-correct {
     color: green;
   }
-  
-  &__wrong {
-    color: red;
+
+  &-wrong {
+    color: red
   }
 }
 
-.correction-title {
+.corrections-title {
   font-weight: 600;
 }
 
-.correction-verse {
-  margin: 0.4rem 0;
+.corrections-verse {
+  margin: 0.4rem, 0
 }
+
 
 @media screen and (max-width: 420px) {
   .card-body {

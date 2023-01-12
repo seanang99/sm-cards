@@ -2,16 +2,21 @@ import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import Form from "react-bootstrap/Form";
+
 import { checkTitleAndVerse } from "../../utils/checkSM";
 
 import "./style.scss";
 
+/**
+ * Renders card component with the customisable props
+ * @params {title, subtitles, content, test} props
+ * @returns Card component
+ */
 const Cards = (props) => {
   const { title, subtitle, content, test } = props;
 
   const [userTitle, setUserTitle] = useState("");
   const [userVerse, setUserVerse] = useState("");
-
   const [validateTitle, setValidateTitle] = useState(false);
   const [validateVerse, setValidateVerse] = useState(false);
   const [submitted, setSubmitted] = useState(false);
