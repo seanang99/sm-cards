@@ -1,4 +1,4 @@
-import { React, useState } from "react";
+import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import Form from "react-bootstrap/Form";
@@ -20,38 +20,24 @@ const Cards = (props) => {
   const [validateTitle, setValidateTitle] = useState(false);
   const [validateVerse, setValidateVerse] = useState(false);
   const [submitted, setSubmitted] = useState(false);
-  const [isCorrect, setIsCorrect] = useState()
+  const [isCorrect, setIsCorrect] = useState();
 
-  const markVerse = () => {
+  const markTitleAndVerse = () => {
     const data = {
-      title,
-      verse: content,
-      userTitle,
-      userVerse,
+      title, verse: content, userTitle, userVerse,
     }
     const res = checkTitleAndVerse(data);
+    console.log({ res });
     setIsCorrect(res);
-
-    // const totalScore = res.score;
-    // console.log({ score, totalScore, res, userTitle, userVerse }) // to delete
-    // setScore(score + totalScore);
-  }
-
-  function handleTitleValidation(input) {
-    setValidateTitle(!input);
-  }
-
-  function handleVerseValidation(input) {
-    setValidateVerse(!input)
   }
 
   const handleOnSubmit = () => {
     // Validate Title and Verse inputs
-    handleTitleValidation(userTitle);
-    handleVerseValidation(userVerse);
+    setValidateTitle(!userTitle);
+    setValidateVerse(!userVerse);
 
     if (userTitle && userVerse) {
-      markVerse();
+      markTitleAndVerse();
       setSubmitted(true);
     }
   }
@@ -61,7 +47,7 @@ const Cards = (props) => {
     let feedback = "";
 
     if (!correctTitle && !correctVerse) {
-      feedback = "Incorrect Title and Verse!"
+      feedback = "Incorrect Title and Verse!";
     } else if (!correctTitle) {
       feedback = "Incorrect Title!"
     } else if (!correctVerse) {
@@ -70,20 +56,19 @@ const Cards = (props) => {
       feedback = "Correct Answer! Well done!"
     }
 
-    const divClassName = `feedback-${correct ? "correct" : "wrong"}`
+    const divClassName = `feedback__${correct ? "correct" : "wrong"}`;
+
     return (
       <>
         <p className={`feedback ${divClassName}`}>{feedback}</p>
-        {!correctTitle ? <div className={`corrections-title ${divClassName}`}>{title}</div> : <></>}
-        {!correctVerse ? <div className={`corrections-verse ${divClassName}`}>{content}</div> : <></>}
+        {!correctTitle ? <div className={`correction-title ${divClassName}`}>{title}</div> : <></>}
+        {!correctVerse ? <div className={`correction-verse ${divClassName}`}>{content}</div> : <></>}
       </>
     )
-
-
   }
 
   return (
-    <Card className={test ? "card__test" : ""}>
+    <Card>
       {test ? (
         <>
           <Card.Header>{subtitle}</Card.Header>
@@ -91,12 +76,11 @@ const Cards = (props) => {
             <Form.Group controlId="Form.ControlTitle">
               <Form.Label>Title</Form.Label>
               <Form.Control
-                className={`form-input ${validateTitle ? "form-input-invalid" : ""}`}
                 type="text"
-                required
+                className={`form-input ${validateTitle ? "form-input-invalid" : ""}`}
                 value={userTitle}
                 onChange={(e) => {
-                  handleTitleValidation(e.target.value);
+                  setValidateTitle(!e.target.value);
                   setUserTitle(e.target.value);
                 }}
               />
@@ -108,13 +92,12 @@ const Cards = (props) => {
             <Form.Group controlId="Form.ControlVerse">
               <Form.Label>Verse</Form.Label>
               <Form.Control
-                className={`form-input ${validateVerse ? "form-input-invalid" : ""}`}
                 as="textarea"
-                required
                 rows={3}
+                className={`form-input ${validateVerse ? "form-input-invalid" : ""}`}
                 value={userVerse}
                 onChange={(e) => {
-                  handleVerseValidation(e.target.value);
+                  setValidateVerse(!e.target.value);
                   setUserVerse(e.target.value);
                 }}
               />
@@ -122,12 +105,10 @@ const Cards = (props) => {
                 Verse cannot be blank
               </p>
             </Form.Group>
-
             <Button
               className="form-button"
               variant="primary"
               as="input"
-              type="submit"
               value="Check"
               onClick={() => handleOnSubmit()}
             />
@@ -137,9 +118,8 @@ const Cards = (props) => {
                 <footer>
                   {handleFeedback(isCorrect, title, content)}
                 </footer>
-              </> : <>
-              </>}
-
+              </> : <></>
+            }
           </Card.Body>
         </>
       ) : (

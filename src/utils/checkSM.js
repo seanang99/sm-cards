@@ -1,18 +1,18 @@
 /**
  * Function checks the correctness of the verse
- * @param {*} res 
- * @returns score, correct_ans
+ * @param {*} props 
  */
-export const checkTitleAndVerse = (res) => {
-    const { title, verse, userTitle, userVerse } = res;
+export const checkTitleAndVerse = (props) => {
+    const { title, verse, userTitle, userVerse } = props;
 
-    if (typeof (userTitle) === 'string' && typeof (userVerse) === 'string' && typeof (title) === 'string' && typeof (verse) === 'string') {
-        /* eslint-disable */
+    if (typeof (userTitle) === 'string' && typeof (userVerse) === 'string' && typeof (verse) === 'string' && typeof (title) === 'string') {
+
+        /* eslint-disable */ 
         const uTitle = userTitle.toLowerCase().replace(/[^\w\s\']|_/g, "").replace(/\s+/g, "");
         const cTitle = title.toLowerCase().replace(/[^\w\s\']|_/g, "").replace(/\s+/g, "");
-        const cVerse = verse.toLowerCase().replace(/[^\w\s\']|_/g, "").replace(/\s+/g, "") //.split(' ');
-        const uVerse = userVerse.toLowerCase().replace(/[^\w\s\']|_/g, "").replace(/\s+/g, "") //.split(' ');
-        /* eslint-enable */
+        const uVerse = userVerse.toLowerCase().replace(/[^\w\s\']|_/g, "").replace(/\s+/g, "");
+        const cVerse = verse.toLowerCase().replace(/[^\w\s\']|_/g, "").replace(/\s+/g, "");
+        /* eslint-enable */ 
 
         let correctTitle = uTitle !== cTitle ? false : true;
         let correctVerse = uVerse !== cVerse ? false : true;

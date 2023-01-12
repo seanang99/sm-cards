@@ -1,20 +1,36 @@
-# Scripture Memory Verse Validator
+# Review Scripture
+### Scripture Memory Verse Validator
 
-Welcome to my project to build a Scripture Memory Verse Validator. 
+Live Site: [reviewscripture.netlify.app](reviewscripture.netlify.app)
 
-This is a mini project used to introduce React to beginners learning web-application development for the Uni Navigators Computer Training Programme, Fall 2022.
+Welcome to my project: Review Scripture, a scripture memory verse validator to help God's people hide his word in their hearts. This was a mini project used to introduce React to beginners learning web-application development for the Uni Navigators Computer Training Programme, Fall 2022. 
 
-__Functions:__
+I have since taken over the code base and plan to extend the application's function to serve a wider audience. Here are some verses from the bible that strengthened my conviction for this project! I hope they will encourage you too! 
+
+In the book of Jeremiah, Chapter 31, God declares: 
+
+> This is the covenant I will make with the people of Israel after that time", declares the Lord. "I will put my law in their minds and write it on their hearts. I will be their God, and they will be my people. No longer will they teach their neighbour, or say to one another 'Know the Lord', because they will all know me, from the least of them to the greatest," declares the Lord. "For I will forgive their wickedness and will remember their sins no more" - Jeremiah 31:33-34 (NIV 11)
+> 
+
+In the book of Psalm, Chapter 119, the Psalmist writes:
+> How can a young man keep his way pure? By living according to your word. I have hidden your word in my heart that I might not sin against you. - Psalm 119:9,11 (NIV 84)
+
+
+## Functions:
 1. View memory bible verses according to TMS 60 (Topical Memory System)
-2. Filter by memory packs
-3. Test Mode which hides the title and verse and replaces it with input for the user to test themselves. `[in-progress]`
+2. Filter by memory packs `[done]`
+3. Test Mode which hides the title and verse and replaces it with input for the user to test themselves. `[done]`
 4. Validate input based on Uni Navigators Scripture Memory Contest rules `[to-do]`
 5. Scoring Mechanism `[to-do]`
-6. Link client application to custom API (another project) instead of using mock data `[to-do]`
+6. Link client application to custom API (another project) instead of using mock data `[in-progress]`
+7. Badges and Scoreboard `[new]` `[to-do]`
+8. Daily Check-in `[new]` `[to-do]`
+9. Users and Authentication `[new]` `[to-do]`
 
 _Note: Verses are in NIV 84._
 
-Author: Sean A, 23 Dec 2022
+Author: Sean A, 
+Last Update: 11 Jan 2023
 
 ## Available Scripts
 
@@ -54,11 +70,3 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
