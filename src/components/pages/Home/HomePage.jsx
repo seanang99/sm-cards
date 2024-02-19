@@ -31,7 +31,6 @@ const HomePage = () => {
   // Filter verses to display when mvPack is selected
   useEffect(() => {
     const filterMemoryVerses = (memory_pack) => {
-      console.log(mvPack);
       if (memory_pack === 'TMS 60') {
         return allVerses.filter((v) => (v.memory_pack.includes("TMS 60")));
       }
