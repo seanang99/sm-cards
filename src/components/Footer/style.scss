@@ -5,9 +5,24 @@
   padding: 1rem;
   background-color: #393939;
   color: #ffffff;
+  position: relative;
+
+  div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+  }
 
   p {
     margin: 1rem;
     text-align: center;
+  }
+
+  githubLogo {
+    height: 24px;
+    width: 24px;
   }
 }
