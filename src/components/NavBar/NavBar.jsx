@@ -34,10 +34,10 @@ const NavBar = (props) => {
               onChange={(e) => setPack(e.target.value)}
             >
               <option>Select Pack</option>
-              {Object.entries(pack).map((p) => {
+              {pack.map((p) => {
                 return (
-                  <option key={p[0]} id={p[0]} value={p[1]}>
-                    {p[1]}
+                  <option key={p.id} id={p.id} value={p.packs}>
+                    {p.packs}
                   </option>
                 );
               })}

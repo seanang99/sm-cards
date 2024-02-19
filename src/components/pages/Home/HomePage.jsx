@@ -2,8 +2,8 @@ import { React, useState, useEffect } from "react";
 import Cards from "../../Cards";
 import NavBar from "../../NavBar";
 import Footer from "../../Footer/Footer";
-import axios from "axios";
-
+import data from "../../../resources/memoryVerses.json";
+import dataPacks from "../../../resources/packs.json";
 import "./style.scss";
 
 const HomePage = () => {
@@ -17,16 +17,12 @@ const HomePage = () => {
   // API call to get Memory Packs and all verses on load
   useEffect(() => {
     const getMemoryPack = () => {
-      axios.get(`${process.env.REACT_APP_API_URL}/packs`).then((res) => {
-        const data = res.data;
-        setPacks(data);
-      });
+      // axios.get(`${process.env.REACT_APP_API_URL}/packs`).then((res) => {
+      //   const data = res.data;
+      setPacks(dataPacks);
     };
     const getVerses = () => {
-      axios.get(`${process.env.REACT_APP_API_URL}/verses`).then((res) => {
-        const data = res.data;
-        setAllVerses(data.verses);
-      });
+        setAllVerses(data);
     };
     getMemoryPack();
     getVerses();
@@ -35,12 +31,12 @@ const HomePage = () => {
   // Filter verses to display when mvPack is selected
   useEffect(() => {
     const filterMemoryVerses = (memory_pack) => {
-      if (memory_pack === 'TMS - 60') {
+      console.log(mvPack);
+      if (memory_pack === 'TMS 60') {
         return allVerses.filter((v) => (v.memory_pack.includes("TMS 60")));
       }
       return allVerses.filter((v) => (v.memory_pack === memory_pack));
     };
-
     setVerses(filterMemoryVerses(mvPack));
   }, [allVerses, mvPack]);
 
