@@ -26,24 +26,26 @@
 }
 
 .form-button {
-  margin-right: 0.4rem;
+  margin: 0.4rem;
+  max-width: 7rem;
 }
 
 .feedback {
   font-weight: 600;
   margin: 0.4rem 0;
   
-  &-correct {
+  &__correct {
     color: green;
   }
 
-  &-wrong {
-    color: red
+  &__wrong {
+    color: red;
   }
 }
 
 .corrections-title {
   font-weight: 600;
+  color: black;
 }
 
 .corrections-verse {
@@ -58,5 +60,6 @@
 
   .form-input {
     min-width: 14rem;
+    max-width: 25rem;
   }
 }

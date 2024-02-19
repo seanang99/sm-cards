@@ -24,12 +24,15 @@ const Cards = (props) => {
 
   const markTitleAndVerse = () => {
     const data = {
-      title, verse: content, userTitle, userVerse,
-    }
+      title,
+      verse: content,
+      userTitle,
+      userVerse,
+    };
     const res = checkTitleAndVerse(data);
     console.log({ res });
     setIsCorrect(res);
-  }
+  };
 
   const handleOnSubmit = () => {
     // Validate Title and Verse inputs
@@ -40,7 +43,7 @@ const Cards = (props) => {
       markTitleAndVerse();
       setSubmitted(true);
     }
-  }
+  };
 
   const handleFeedback = (isCorrect, title, content) => {
     const { correctTitle, correctVerse, correct } = isCorrect;
@@ -49,11 +52,11 @@ const Cards = (props) => {
     if (!correctTitle && !correctVerse) {
       feedback = "Incorrect Title and Verse!";
     } else if (!correctTitle) {
-      feedback = "Incorrect Title!"
+      feedback = "Incorrect Title!";
     } else if (!correctVerse) {
-      feedback = "Incorrect Verse!"
+      feedback = "Incorrect Verse!";
     } else {
-      feedback = "Correct Answer! Well done!"
+      feedback = "Correct Answer! Well done!";
     }
 
     const divClassName = `feedback__${correct ? "correct" : "wrong"}`;
@@ -61,11 +64,24 @@ const Cards = (props) => {
     return (
       <>
         <p className={`feedback ${divClassName}`}>{feedback}</p>
-        {!correctTitle ? <div className={`correction-title ${divClassName}`}>{title}</div> : <></>}
-        {!correctVerse ? <div className={`correction-verse ${divClassName}`}>{content}</div> : <></>}
+        {!correctTitle ? (
+          <div className={`correction-title ${divClassName}`}>{title}</div>
+        ) : (
+          <></>
+        )}
+        {!correctVerse ? (
+          <div className={`correction-verse ${divClassName}`}>{content}</div>
+        ) : (
+          <></>
+        )}
       </>
-    )
-  }
+    );
+  };
+
+  const handleClear = () => {
+    setUserTitle("");
+    setUserVerse("");
+  };
 
   return (
     <Card>
@@ -77,14 +93,20 @@ const Cards = (props) => {
               <Form.Label>Title</Form.Label>
               <Form.Control
                 type="text"
-                className={`form-input ${validateTitle ? "form-input-invalid" : ""}`}
+                className={`form-input ${
+                  validateTitle ? "form-input-invalid" : ""
+                }`}
                 value={userTitle}
                 onChange={(e) => {
                   setValidateTitle(!e.target.value);
                   setUserTitle(e.target.value);
                 }}
               />
-              <p className={`form-control-validator${validateTitle ? "" : "__hidden"}`}>
+              <p
+                className={`form-control-validator${
+                  validateTitle ? "" : "__hidden"
+                }`}
+              >
                 Title cannot be blank
               </p>
             </Form.Group>
@@ -94,32 +116,45 @@ const Cards = (props) => {
               <Form.Control
                 as="textarea"
                 rows={3}
-                className={`form-input ${validateVerse ? "form-input-invalid" : ""}`}
+                className={`form-input ${
+                  validateVerse ? "form-input-invalid" : ""
+                }`}
                 value={userVerse}
                 onChange={(e) => {
                   setValidateVerse(!e.target.value);
                   setUserVerse(e.target.value);
                 }}
               />
-              <p className={`form-control-validator${validateVerse ? "" : "__hidden"}`}>
+              <p
+                className={`form-control-validator${
+                  validateVerse ? "" : "__hidden"
+                }`}
+              >
                 Verse cannot be blank
               </p>
             </Form.Group>
             <Button
               className="form-button"
-              variant="primary"
               as="input"
+              variant="primary"
               value="Check"
               onClick={() => handleOnSubmit()}
             />
+            <Button
+              className="form-button"
+              as="input"
+              variant="danger"
+              value="Clear"
+              onClick={() => handleClear()}
+            />
 
-            {submitted ?
+            {submitted ? (
               <>
-                <footer>
-                  {handleFeedback(isCorrect, title, content)}
-                </footer>
-              </> : <></>
-            }
+                <footer>{handleFeedback(isCorrect, title, content)}</footer>
+              </>
+            ) : (
+              <></>
+            )}
           </Card.Body>
         </>
       ) : (
