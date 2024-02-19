@@ -1,5 +1,9 @@
 [
   {
+    "id": 0,
+    "packs": "5 Assurances"
+  },
+  {
     "id": 1,
     "packs": "TMS 60"
   },
@@ -22,5 +26,13 @@
   {
     "id": 6,
     "packs": "TMS 60 - E"
+  },
+  {
+    "id": 7,
+    "packs": "AoS"
+  },
+  {
+    "id": 8,
+    "packs": "Quiet Time"
   }
  ]

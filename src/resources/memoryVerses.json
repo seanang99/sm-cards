@@ -1,6 +1,51 @@
 [
   {
     "id": 1,
+    "pack": "5 Assurances",
+    "memory_pack": "5 Assurances",
+    "pack_description": "Lessons on Assurance",
+    "reference": "1 John 5:11-12",
+    "verse": "And this is the testimony: God has given us eternal life, and this life is in his Son. He who has the Son has life; he who does not have the Son of God does not have life.",
+    "title": "Assurance of Salvation"
+  },
+  {
+    "id": 2,
+    "pack": "5 Assurances",
+    "memory_pack": "5 Assurances",
+    "pack_description": "Lessons on Assurance",
+    "reference": "John 16:24",
+    "verse": "\"Until now you have not asked for anything in my name. Ask and you will receive, and your joy will be complete.\"",
+    "title": "Assurance of Answered Prayer"
+  },
+  {
+    "id": 3,
+    "pack": "5 Assurances",
+    "memory_pack": "5 Assurances",
+    "pack_description": "Lessons on Assurance",
+    "reference": "1 Corinthians 10:13",
+    "verse": "No temptation has seized you except what is common to man. And God is faithful; he will not let you be tempted beyond what you can bear. But when you are tempted, he will also provide a way out so that you can stand up under it.",
+    "title": "Assurance of Victory"
+  },
+  {
+    "id": 4,
+    "pack": "5 Assurances",
+    "memory_pack": "5 Assurances",
+    "pack_description": "Lessons on Assurance",
+    "reference": "1 John 1:9",
+    "verse": "If we confess our sins, he is faithful and just and will forgive us our sins and purify us from all unrighteousness",
+    "title": "Assurance of Forgiveness"
+  },
+  {
+    "id": 5,
+    "pack": "5 Assurances",
+    "memory_pack": "5 Assurances",
+    "pack_description": "Lessons on Assurance",
+    "reference": "Proverbs 3:9-10",
+    "verse": "Trust in the Lord with all your heart and lean not on your own understanding; in all your ways acknowledge him, and he will make your paths straight.",
+    "title": "Assurance of Guidance"
+  },
+  {
+    "id": 6,
     "pack": "TMS 60",
     "memory_pack": "TMS 60 - A",
     "pack_description": "Live the New Life",
@@ -9,7 +54,7 @@
     "title": "Christ the Center"
   },
   {
-    "id": 2,
+    "id": 7,
     "pack": "TMS 60",
     "memory_pack": "TMS 60 - A",
     "pack_description": "Live the New Life",
@@ -18,7 +63,7 @@
     "title": "Christ the Center"
   },
   {
-    "id": 3,
+    "id": 8,
     "pack": "TMS 60",
     "memory_pack": "TMS 60 - A",
     "pack_description": "Live the New Life",
@@ -27,7 +72,7 @@
     "title": "Obedience to Christ"
   },
   {
-    "id": 4,
+    "id": 9,
     "pack": "TMS 60",
     "memory_pack": "TMS 60 - A",
     "pack_description": "Live the New Life",
@@ -36,7 +81,7 @@
     "title": "Obedience to Christ"
   },
   {
-    "id": 5,
+    "id": 10,
     "pack": "TMS 60",
     "memory_pack": "TMS 60 - A",
     "pack_description": "Live the New Life",
@@ -45,7 +90,7 @@
     "title": "The Word"
   },
   {
-    "id": 6,
+    "id": 11,
     "pack": "TMS 60",
     "memory_pack": "TMS 60 - A",
     "pack_description": "Live the New Life",
@@ -54,7 +99,7 @@
     "title": "The Word"
   },
   {
-    "id": 7,
+    "id": 12,
     "pack": "TMS 60",
     "memory_pack": "TMS 60 - A",
     "pack_description": "Live the New Life",
@@ -63,7 +108,7 @@
     "title": "Prayer"
   },
   {
-    "id": 8,
+    "id": 13,
     "pack": "TMS 60",
     "memory_pack": "TMS 60 - A",
     "pack_description": "Live the New Life",
@@ -72,7 +117,7 @@
     "title": "Prayer"
   },
   {
-    "id": 9,
+    "id": 14,
     "pack": "TMS 60",
     "memory_pack": "TMS 60 - A",
     "pack_description": "Live the New Life",
@@ -81,7 +126,7 @@
     "title": "Fellowship"
   },
   {
-    "id": 10,
+    "id": 15,
     "pack": "TMS 60",
     "memory_pack": "TMS 60 - A",
     "pack_description": "Live the New Life",
@@ -90,7 +135,7 @@
     "title": "Fellowship"
   },
   {
-    "id": 11,
+    "id": 16,
     "pack": "TMS 60",
     "memory_pack": "TMS 60 - A",
     "pack_description": "Live the New Life",
@@ -99,7 +144,7 @@
     "title": "Witnessing"
   },
   {
-    "id": 12,
+    "id": 17,
     "pack": "TMS 60",
     "memory_pack": "TMS 60 - A",
     "pack_description": "Live the New Life",
@@ -108,7 +153,7 @@
     "title": "Witnessing"
   },
   {
-    "id": 13,
+    "id": 18,
     "pack": "TMS 60",
     "memory_pack": "TMS 60 - B",
     "pack_description": "Proclaim Christ",
@@ -117,7 +162,7 @@
     "title": "All Have Sinned"
   },
   {
-    "id": 14,
+    "id": 19,
     "pack": "TMS 60",
     "memory_pack": "TMS 60 - B",
     "pack_description": "Proclaim Christ",
@@ -126,7 +171,7 @@
     "title": "All Have Sinned"
   },
   {
-    "id": 15,
+    "id": 20,
     "pack": "TMS 60",
     "memory_pack": "TMS 60 - B",
     "pack_description": "Proclaim Christ",
@@ -135,7 +180,7 @@
     "title": "Sin's Penalty"
   },
   {
-    "id": 16,
+    "id": 21,
     "pack": "TMS 60",
     "memory_pack": "TMS 60 - B",
     "pack_description": "Proclaim Christ",
@@ -144,7 +189,7 @@
     "title": "Sin's Penalty"
   },
   {
-    "id": 17,
+    "id": 22,
     "pack": "TMS 60",
     "memory_pack": "TMS 60 - B",
     "pack_description": "Proclaim Christ",
@@ -153,7 +198,7 @@
     "title": "Christ Paid the Penalty"
   },
   {
-    "id": 18,
+    "id": 23,
     "pack": "TMS 60",
     "memory_pack": "TMS 60 - B",
     "pack_description": "Proclaim Christ",
@@ -162,7 +207,7 @@
     "title": "Christ Paid the Penalty"
   },
   {
-    "id": 19,
+    "id": 24,
     "pack": "TMS 60",
     "memory_pack": "TMS 60 - B",
     "pack_description": "Proclaim Christ",
@@ -171,7 +216,7 @@
     "title": "Salvation Not by Works"
   },
   {
-    "id": 20,
+    "id": 25,
     "pack": "TMS 60",
     "memory_pack": "TMS 60 - B",
     "pack_description": "Proclaim Christ",
@@ -180,7 +225,7 @@
     "title": "Salvation Not by Works"
   },
   {
-    "id": 21,
+    "id": 26,
     "pack": "TMS 60",
     "memory_pack": "TMS 60 - B",
     "pack_description": "Proclaim Christ",
@@ -189,7 +234,7 @@
     "title": "Must Receive Christ"
   },
   {
-    "id": 22,
+    "id": 27,
     "pack": "TMS 60",
     "memory_pack": "TMS 60 - B",
     "pack_description": "Proclaim Christ",
@@ -198,7 +243,7 @@
     "title": "Must Receive Christ"
   },
   {
-    "id": 23,
+    "id": 28,
     "pack": "TMS 60",
     "memory_pack": "TMS 60 - B",
     "pack_description": "Proclaim Christ",
@@ -207,7 +252,7 @@
     "title": "Assurance of Salvation"
   },
   {
-    "id": 24,
+    "id": 29,
     "pack": "TMS 60",
     "memory_pack": "TMS 60 - B",
     "pack_description": "Proclaim Christ",
@@ -216,7 +261,7 @@
     "title": "Assurance of Salvation"
   },
   {
-    "id": 25,
+    "id": 30,
     "pack": "TMS 60",
     "memory_pack": "TMS 60 - C",
     "pack_description": "Rely on God's Resources",
@@ -225,7 +270,7 @@
     "title": "His Spirit"
   },
   {
-    "id": 26,
+    "id": 31,
     "pack": "TMS 60",
     "memory_pack": "TMS 60 - C",
     "pack_description": "Rely on God's Resources",
@@ -234,7 +279,7 @@
     "title": "His Spirit"
   },
   {
-    "id": 27,
+    "id": 32,
     "pack": "TMS 60",
     "memory_pack": "TMS 60 - C",
     "pack_description": "Rely on God's Resources",
@@ -243,7 +288,7 @@
     "title": "His Strength"
   },
   {
-    "id": 28,
+    "id": 33,
     "pack": "TMS 60",
     "memory_pack": "TMS 60 - C",
     "pack_description": "Rely on God's Resources",
@@ -252,7 +297,7 @@
     "title": "His Strength"
   },
   {
-    "id": 29,
+    "id": 34,
     "pack": "TMS 60",
     "memory_pack": "TMS 60 - C",
     "pack_description": "Rely on God's Resources",
@@ -261,7 +306,7 @@
     "title": "His Faithfulness"
   },
   {
-    "id": 30,
+    "id": 35,
     "pack": "TMS 60",
     "memory_pack": "TMS 60 - C",
     "pack_description": "Rely on God's Resources",
@@ -270,7 +315,7 @@
     "title": "His Faithfulness"
   },
   {
-    "id": 31,
+    "id": 36,
     "pack": "TMS 60",
     "memory_pack": "TMS 60 - C",
     "pack_description": "Rely on God's Resources",
@@ -279,7 +324,7 @@
     "title": "His Peace"
   },
   {
-    "id": 32,
+    "id": 37,
     "pack": "TMS 60",
     "memory_pack": "TMS 60 - C",
     "pack_description": "Rely on God's Resources",
@@ -288,7 +333,7 @@
     "title": "His Peace"
   },
   {
-    "id": 33,
+    "id": 38,
     "pack": "TMS 60",
     "memory_pack": "TMS 60 - C",
     "pack_description": "Rely on God's Resources",
@@ -297,7 +342,7 @@
     "title": "His Provision"
   },
   {
-    "id": 34,
+    "id": 39,
     "pack": "TMS 60",
     "memory_pack": "TMS 60 - C",
     "pack_description": "Rely on God's Resources",
@@ -306,7 +351,7 @@
     "title": "His Provision"
   },
   {
-    "id": 35,
+    "id": 40,
     "pack": "TMS 60",
     "memory_pack": "TMS 60 - C",
     "pack_description": "Rely on God's Resources",
@@ -315,7 +360,7 @@
     "title": "His Help in Temptation"
   },
   {
-    "id": 36,
+    "id": 41,
     "pack": "TMS 60",
     "memory_pack": "TMS 60 - C",
     "pack_description": "Rely on God's Resources",
@@ -324,7 +369,7 @@
     "title": "His Help in Temptation"
   },
   {
-    "id": 37,
+    "id": 42,
     "pack": "TMS 60",
     "memory_pack": "TMS 60 - D",
     "pack_description": "Be Christ's Disciples",
@@ -333,7 +378,7 @@
     "title": "Put Christ First"
   },
   {
-    "id": 38,
+    "id": 43,
     "pack": "TMS 60",
     "memory_pack": "TMS 60 - D",
     "pack_description": "Be Christ's Disciples",
@@ -342,7 +387,7 @@
     "title": "Put Christ First"
   },
   {
-    "id": 39,
+    "id": 44,
     "pack": "TMS 60",
     "memory_pack": "TMS 60 - D",
     "pack_description": "Be Christ's Disciples",
@@ -351,7 +396,7 @@
     "title": "Separate from the World"
   },
   {
-    "id": 40,
+    "id": 45,
     "pack": "TMS 60",
     "memory_pack": "TMS 60 - D",
     "pack_description": "Be Christ's Disciples",
@@ -360,7 +405,7 @@
     "title": "Separate from the World"
   },
   {
-    "id": 41,
+    "id": 46,
     "pack": "TMS 60",
     "memory_pack": "TMS 60 - D",
     "pack_description": "Be Christ's Disciples",
@@ -369,7 +414,7 @@
     "title": "Be Steadfast"
   },
   {
-    "id": 42,
+    "id": 47,
     "pack": "TMS 60",
     "memory_pack": "TMS 60 - D",
     "pack_description": "Be Christ's Disciples",
@@ -378,7 +423,7 @@
     "title": "Be Steadfast"
   },
   {
-    "id": 43,
+    "id": 48,
     "pack": "TMS 60",
     "memory_pack": "TMS 60 - D",
     "pack_description": "Be Christ's Disciples",
@@ -387,7 +432,7 @@
     "title": "Serve Others"
   },
   {
-    "id": 44,
+    "id": 49,
     "pack": "TMS 60",
     "memory_pack": "TMS 60 - D",
     "pack_description": "Be Christ's Disciples",
@@ -396,7 +441,7 @@
     "title": "Serve Others"
   },
   {
-    "id": 45,
+    "id": 50,
     "pack": "TMS 60",
     "memory_pack": "TMS 60 - D",
     "pack_description": "Be Christ's Disciples",
@@ -405,7 +450,7 @@
     "title": "Give Generously"
   },
   {
-    "id": 46,
+    "id": 51,
     "pack": "TMS 60",
     "memory_pack": "TMS 60 - D",
     "pack_description": "Be Christ's Disciples",
@@ -414,7 +459,7 @@
     "title": "Give Generously"
   },
   {
-    "id": 47,
+    "id": 52,
     "pack": "TMS 60",
     "memory_pack": "TMS 60 - D",
     "pack_description": "Be Christ's Disciples",
@@ -423,7 +468,7 @@
     "title": "Develop World Vision"
   },
   {
-    "id": 48,
+    "id": 53,
     "pack": "TMS 60",
     "memory_pack": "TMS 60 - D",
     "pack_description": "Be Christ's Disciples",
@@ -432,7 +477,7 @@
     "title": "Develop World Vision"
   },
   {
-    "id": 49,
+    "id": 54,
     "pack": "TMS 60",
     "memory_pack": "TMS 60 - E",
     "pack_description": "Grow in Christlikeness",
@@ -441,7 +486,7 @@
     "title": "Love"
   },
   {
-    "id": 50,
+    "id": 55,
     "pack": "TMS 60",
     "memory_pack": "TMS 60 - E",
     "pack_description": "Grow in Christlikeness",
@@ -450,7 +495,7 @@
     "title": "Love"
   },
   {
-    "id": 51,
+    "id": 56,
     "pack": "TMS 60",
     "memory_pack": "TMS 60 - E",
     "pack_description": "Grow in Christlikeness",
@@ -459,7 +504,7 @@
     "title": "Humility"
   },
   {
-    "id": 52,
+    "id": 57,
     "pack": "TMS 60",
     "memory_pack": "TMS 60 - E",
     "pack_description": "Grow in Christlikeness",
@@ -468,7 +513,7 @@
     "title": "Humility"
   },
   {
-    "id": 53,
+    "id": 58,
     "pack": "TMS 60",
     "memory_pack": "TMS 60 - E",
     "pack_description": "Grow in Christlikeness",
@@ -477,7 +522,7 @@
     "title": "Purity"
   },
   {
-    "id": 54,
+    "id": 59,
     "pack": "TMS 60",
     "memory_pack": "TMS 60 - E",
     "pack_description": "Grow in Christlikeness",
@@ -486,7 +531,7 @@
     "title": "Purity"
   },
   {
-    "id": 55,
+    "id": 60,
     "pack": "TMS 60",
     "memory_pack": "TMS 60 - E",
     "pack_description": "Grow in Christlikeness",
@@ -495,7 +540,7 @@
     "title": "Honesty"
   },
   {
-    "id": 56,
+    "id": 61,
     "pack": "TMS 60",
     "memory_pack": "TMS 60 - E",
     "pack_description": "Grow in Christlikeness",
@@ -504,7 +549,7 @@
     "title": "Honesty"
   },
   {
-    "id": 57,
+    "id": 62,
     "pack": "TMS 60",
     "memory_pack": "TMS 60 - E",
     "pack_description": "Grow in Christlikeness",
@@ -513,7 +558,7 @@
     "title": "Faith"
   },
   {
-    "id": 58,
+    "id": 63,
     "pack": "TMS 60",
     "memory_pack": "TMS 60 - E",
     "pack_description": "Grow in Christlikeness",
@@ -522,7 +567,7 @@
     "title": "Faith"
   },
   {
-    "id": 59,
+    "id": 64,
     "pack": "TMS 60",
     "memory_pack": "TMS 60 - E",
     "pack_description": "Grow in Christlikeness",
@@ -531,12 +576,417 @@
     "title": "Good Works"
   },
   {
-    "id": 60,
+    "id": 65,
     "pack": "TMS 60",
     "memory_pack": "TMS 60 - E",
     "pack_description": "Grow in Christlikeness",
     "reference": "Matthew 5:16",
     "verse": "In the same way, let your light shine before men, that they may see your good works and praise your Father in heaven.",
     "title": "Good Works"
+  },
+  {
+    "id": 66,
+    "pack": "AoS",
+    "memory_pack": "AoS",
+    "pack_description": "Assurance of Salvation",
+    "reference": "2 Corinthians 13:5",
+    "verse": "Examine yourselves to see whether you are in the faith; test yourselves. Do you not realise that Christ Jesus is in you - unless of course, you fail the test?",
+    "title": "Can be assured"
+  },
+  {
+    "id": 67,
+    "pack": "AoS",
+    "memory_pack": "AoS",
+    "pack_description": "Assurance of Salvation",
+    "reference": "1 John 5:11-12",
+    "verse": "And this is the testimony: God has given us eternal life, and this life is in his Son. He who has the Son has life; he who does not have the Son of God does not have life.",
+    "title": "Can be assured"
+  },
+  {
+    "id": 68,
+    "pack": "AoS",
+    "memory_pack": "AoS",
+    "pack_description": "Assurance of Salvation",
+    "reference": "1 John 5:13",
+    "verse": "I write these things to you who believe in the name of the Son of God so that you may know that you have eternal life.",
+    "title": "Assured of having eternal life"
+  },
+  {
+    "id": 69,
+    "pack": "AoS",
+    "memory_pack": "AoS",
+    "pack_description": "Assurance of Salvation",
+    "reference": "John 6:47",
+    "verse": "I tell you the truth, he who believes has everlasting life.",
+    "title": "Assured of having eternal life"
+  },
+  {
+    "id": 70,
+    "pack": "AoS",
+    "memory_pack": "AoS",
+    "pack_description": "Assurance of Salvation",
+    "reference": "Ephesians 1:7",
+    "verse": "In him we have redemption through his blood, the forgiveness of sins, in accordance with the riches of God's grace.",
+    "title": "Forgiveness of sin"
+  },
+  {
+    "id": 71,
+    "pack": "AoS",
+    "memory_pack": "AoS",
+    "pack_description": "Assurance of Salvation",
+    "reference": "Romans 8:1",
+    "verse": "Therefore, there is now no condemnation for those who are in Christ Jesus.",
+    "title": "Forgiveness of sin"
+  },
+  {
+    "id": 72,
+    "pack": "AoS",
+    "memory_pack": "AoS",
+    "pack_description": "Assurance of Salvation",
+    "reference": "Romans 3:24",
+    "verse": "And are justified freely by his grace through the redemption that came by Christ Jesus.",
+    "title": "Justified"
+  },
+  {
+    "id": 73,
+    "pack": "AoS",
+    "memory_pack": "AoS",
+    "pack_description": "Assurance of Salvation",
+    "reference": "Romans 5:1",
+    "verse": "Therefore, since we have been justified through faith, we have peace with God through our Lord Jesus Christ.",
+    "title": "Justified"
+  },
+  {
+    "id": 74,
+    "pack": "AoS",
+    "memory_pack": "AoS",
+    "pack_description": "Assurance of Salvation",
+    "reference": "1 Peter 1:3",
+    "verse": "Praise be to the God and Father of our Lord Jesus Christ! In his great mercy he has given us new birth into a living hope through the resurrection of Jesus Christ from the dead.",
+    "title": "Born again in Christ"
+  },
+  {
+    "id": 75,
+    "pack": "AoS",
+    "memory_pack": "AoS",
+    "pack_description": "Assurance of Salvation",
+    "reference": "Titus 3:5",
+    "verse": "He saved us, not because of righteous things we had done, but because of his mercy. He saved us through the washing of rebirth and renewal by the Holy Spirit.",
+    "title": "Born again in Christ"
+  },
+  {
+    "id": 76,
+    "pack": "AoS",
+    "memory_pack": "AoS",
+    "pack_description": "Assurance of Salvation",
+    "reference": "Galatians 3:26",
+    "verse": "You are all sons of God through faith in Christ Jesus.",
+    "title": "Being children of God"
+  },
+  {
+    "id": 77,
+    "pack": "AoS",
+    "memory_pack": "AoS",
+    "pack_description": "Assurance of Salvation",
+    "reference": "Romans 8:14",
+    "verse": "Because those who are led by the Spirit of God are sons of God.",
+    "title": "Being children of God"
+  },
+  {
+    "id": 78,
+    "pack": "AoS",
+    "memory_pack": "AoS",
+    "pack_description": "Assurance of Salvation",
+    "reference": "Romans 8:9",
+    "verse": "You, however, are controlled not by the sinful nature but by the Spirit, if the Spirit of God lives in you. And if anyone does not have the Spirit of Christ, he does not belong to Christ.",
+    "title": "Holy Spirit living in believers"
+  },
+  {
+    "id": 79,
+    "pack": "AoS",
+    "memory_pack": "AoS",
+    "pack_description": "Assurance of Salvation",
+    "reference": "John 14:16-17",
+    "verse": "And I will ask the Father, and he will give you another Counselor to be with you forever - the Spirit of truth. The world cannot accept him because it neither sees him nor knows him. But you know him, for he lives with you and will be in you.",
+    "title": "Holy Spirit living in believers"
+  },
+  {
+    "id": 80,
+    "pack": "AoS",
+    "memory_pack": "AoS",
+    "pack_description": "Assurance of Salvation",
+    "reference": "John 10:28-29",
+    "verse": "I give them eternal life, and they shall never perish; no one can snatch them out of my hand. My Father, who has given them to me, is greater than all; no one can snatch them out of my Father's hand.",
+    "title": "Salvation never to be lost"
+  },
+  {
+    "id": 81,
+    "pack": "AoS",
+    "memory_pack": "AoS",
+    "pack_description": "Assurance of Salvation",
+    "reference": "Romans 8:39",
+    "verse": "Neither height nor depth, nor anything else in all creation, will be able to separate us from the love of God that is in Christ Jesus our Lord.",
+    "title": "Salvation never to be lost"
+  },
+  {
+    "id": 82,
+    "pack": "",
+    "memory_pack": "",
+    "pack_description": "",
+    "reference": "",
+    "verse": "",
+    "title": ""
+  },
+  {
+    "id": 83,
+    "pack": "AoS",
+    "memory_pack": "AoS",
+    "pack_description": "Assurance of Salvation",
+    "reference": "1 Peter 1:23",
+    "verse": "For you have been born again, not of perishable seed, but of imperishable, through the living and enduring word of God.",
+    "title": "Assurance based on the Word"
+  },
+  {
+    "id": 84,
+    "pack": "AoS",
+    "memory_pack": "AoS",
+    "pack_description": "Assurance of Salvation",
+    "reference": "Ephesians 1:13",
+    "verse": "And you also were included in Christ when you heard the word of truth, the gospel of your salvation. Having believed, you were marked in him with a seal, the promised Holy Spirit.",
+    "title": "Assurance based on the Word"
+  },
+  {
+    "id": 85,
+    "pack": "Quiet Time",
+    "memory_pack": "Quiet Time",
+    "pack_description": "Why do we have Quiet Time?",
+    "reference": "1 Corinthians 1:9",
+    "verse": "God, who has called you into fellowship with his Son Jesus Christ our Lord, is faithful.",
+    "title": "God wants to fellowship with us"
+  },
+  {
+    "id": 86,
+    "pack": "Quiet Time",
+    "memory_pack": "Quiet Time",
+    "pack_description": "Why do we have Quiet Time?",
+    "reference": "Isaiah 30:18",
+    "verse": "Yet the Lord longs to be gracious to you; he rises to show you compassion. For the Lord is a God of justice. Blessed are all who wait for him!",
+    "title": "God wants to fellowship with us"
+  },
+  {
+    "id": 87,
+    "pack": "Quiet Time",
+    "memory_pack": "Quiet Time",
+    "pack_description": "Why do we have Quiet Time?",
+    "reference": "Isaiah 55:6",
+    "verse": "Seek the Lord while he may be found; call on him while he is near.",
+    "title": "God's command"
+  },
+  {
+    "id": 88,
+    "pack": "Quiet Time",
+    "memory_pack": "Quiet Time",
+    "pack_description": "Why do we have Quiet Time?",
+    "reference": "Psalm 27:8",
+    "verse": "When thou saidst Seek ye my face; my heart said unto thee, Thy face, Lord, will I seek.",
+    "title": "God's command"
+  },
+  {
+    "id": 89,
+    "pack": "Quiet Time",
+    "memory_pack": "Quiet Time",
+    "pack_description": "Why do we have Quiet Time?",
+    "reference": "John 15:5",
+    "verse": "I am the vine; you are the branches. If a man remains in me and I in him, he will bear much fruit; apart from me you can do nothing.",
+    "title": "Promise of blessings"
+  },
+  {
+    "id": 90,
+    "pack": "Quiet Time",
+    "memory_pack": "Quiet Time",
+    "pack_description": "Why do we have Quiet Time?",
+    "reference": "Psalm 34:10",
+    "verse": "The lions may grow weak and hungry, but those who seek the Lord lack no good thing.",
+    "title": "Promise of blessings"
+  },
+  {
+    "id": 91,
+    "pack": "Quiet Time",
+    "memory_pack": "Quiet Time",
+    "pack_description": "Why do we have Quiet Time?",
+    "reference": "Habakkuk 2:1",
+    "verse": "I will stand at my watch and station myself on the ramparts; I will look to see what he will say to me, and what answer I am to give to this complaint.",
+    "title": "To discern and obey God's will"
+  },
+  {
+    "id": 92,
+    "pack": "Quiet Time",
+    "memory_pack": "Quiet Time",
+    "pack_description": "Why do we have Quiet Time?",
+    "reference": "Psalm 143:8, 10",
+    "verse": "Let the morning bring me word of your unfailing love, for I have put my trust in you. Show me the way I should go, for to you I lift up my soul. Teach me to do your will, for you are my God; may your good Spirit lead me on level ground.",
+    "title": "To discern and obey God's will"
+  },
+  {
+    "id": 93,
+    "pack": "Quiet Time",
+    "memory_pack": "Quiet Time",
+    "pack_description": "What is Quiet Time?",
+    "reference": "Hebrew 12:2",
+    "verse": "Let us fix our eyes on Jesus, the author and perfecter of our faith, who for the joy set before him endured the cross, scorning its shame, and sat down at the right hand of the throne of God.",
+    "title": "Looking on the Lord"
+  },
+  {
+    "id": 94,
+    "pack": "Quiet Time",
+    "memory_pack": "Quiet Time",
+    "pack_description": "What is Quiet Time?",
+    "reference": "Psalm 42:11",
+    "verse": "Why are you downcast, O my soul? Why so disturbed within me? Put your hope in God, for I will yet praise him, my saviour and my God.",
+    "title": "Looking on the Lord"
+  },
+  {
+    "id": 95,
+    "pack": "Quiet Time",
+    "memory_pack": "Quiet Time",
+    "pack_description": "What is Quiet Time?",
+    "reference": "Psalm 42:1",
+    "verse": "As the deer pants for streams of water, so my soul pants for you, O God.",
+    "title": "Coming to the Lord with thirst"
+  },
+  {
+    "id": 96,
+    "pack": "Quiet Time",
+    "memory_pack": "Quiet Time",
+    "pack_description": "What is Quiet Time?",
+    "reference": "Psalm 130:5-6",
+    "verse": "I wait for the Lord, my soul waits, and in his word I put my hope. My soul waits for the Lord more than watchmen wait for the morning, more than watchmen wait for the morning.",
+    "title": "Coming to the Lord with thirst"
+  },
+  {
+    "id": 97,
+    "pack": "Quiet Time",
+    "memory_pack": "Quiet Time",
+    "pack_description": "What is Quiet Time?",
+    "reference": "Psalm 55:22",
+    "verse": "Cast your cares on the Lord and he will sustain you; he will never let the righteous fall.",
+    "title": "Casting our burdens on the Lord"
+  },
+  {
+    "id": 98,
+    "pack": "Quiet Time",
+    "memory_pack": "Quiet Time",
+    "pack_description": "What is Quiet Time?",
+    "reference": "Psalm 68:19",
+    "verse": "Praise be to the Lord, to God our Saviour, who daily bears our burdens. Selah",
+    "title": "Casting our burdens on the Lord"
+  },
+  {
+    "id": 99,
+    "pack": "Quiet Time",
+    "memory_pack": "Quiet Time",
+    "pack_description": "What is Quiet Time?",
+    "reference": "Psalm 91:9-10",
+    "verse": "If you make the Most High your dwelling - even the Lord, who is my refuge - then no harm will befall you, no disaster will come near your tent.",
+    "title": "Taking refuge and rest in the Lord"
+  },
+  {
+    "id": 100,
+    "pack": "Quiet Time",
+    "memory_pack": "Quiet Time",
+    "pack_description": "What is Quiet Time?",
+    "reference": "Matthew 11:28-29",
+    "verse": "Come to me, all you who are weary and burdened, and I will give you rest. Take my yoke upon you and learn from me, for I am gentle and humble in heart, and you will find rest for your souls.",
+    "title": "Taking refuge and rest in the Lord"
+  },
+  {
+    "id": 101,
+    "pack": "Quiet Time",
+    "memory_pack": "Quiet Time",
+    "pack_description": "What is Quiet Time?",
+    "reference": "Psalm 119:147-148",
+    "verse": "I rise before dawn and cry for help; I have put my hope in your word. My eyes stay open through the watches of the night, that I may meditate on your promises.",
+    "title": "Meeting the Lord in the Word and prayer"
+  },
+  {
+    "id": 102,
+    "pack": "Quiet Time",
+    "memory_pack": "Quiet Time",
+    "pack_description": "What is Quiet Time?",
+    "reference": "Psalm 5:3",
+    "verse": "In the morning, O Lord, you hear my voice; in the morning I lay my requests before you and wait in expectation.",
+    "title": "Meeting the Lord in the Word and prayer"
+  },
+  {
+    "id": 103,
+    "pack": "Quiet Time",
+    "memory_pack": "Quiet Time",
+    "pack_description": "What is Quiet Time?",
+    "reference": "Psalm 95:6",
+    "verse": "Come, let us bow down in worship, let us kneel before the Lord our Maker.",
+    "title": "Worshipping the Lord"
+  },
+  {
+    "id": 104,
+    "pack": "Quiet Time",
+    "memory_pack": "Quiet Time",
+    "pack_description": "What is Quiet Time?",
+    "reference": "Hebrew 13:15",
+    "verse": "Through Jesus, therefore, let us continually offer to God a sacrifice of praise - the fruit of lips that confess his name.",
+    "title": "Worshipping the Lord"
+  },
+  {
+    "id": 105,
+    "pack": "Quiet Time",
+    "memory_pack": "Quiet Time",
+    "pack_description": "What is Quiet Time?",
+    "reference": "Psalm 90:14",
+    "verse": "Satisfy us in the morning with your unfailing love, that we may sing for joy and be glad all our days.",
+    "title": "Getting daily satisfaction"
+  },
+  {
+    "id": 106,
+    "pack": "Quiet Time",
+    "memory_pack": "Quiet Time",
+    "pack_description": "What is Quiet Time?",
+    "reference": "Psalm 107:9",
+    "verse": "For he satisfies the thirsty and fills the hungry with good things.",
+    "title": "Getting daily satisfaction"
+  },
+  {
+    "id": 107,
+    "pack": "Quiet Time",
+    "memory_pack": "Quiet Time",
+    "pack_description": "Examples of Quiet Time",
+    "reference": "Mark 1:35",
+    "verse": "Very early in the morning, while it was still dark, Jesus got up, left the house and went off to a solitary place, where he prayed.",
+    "title": "Jesus - praying very early in the morning"
+  },
+  {
+    "id": 108,
+    "pack": "Quiet Time",
+    "memory_pack": "Quiet Time",
+    "pack_description": "Examples of Quiet Time",
+    "reference": "Exodus 33:11",
+    "verse": "The Lord would speak to Moses face to face, as a man speaks with his friend. Then Moses would return to the camp, but his young aide Joshua son of Nun did not leave the tent.",
+    "title": "Moses - personal fellowship with the Lord"
+  },
+  {
+    "id": 109,
+    "pack": "Quiet Time",
+    "memory_pack": "Quiet Time",
+    "pack_description": "Examples of Quiet Time",
+    "reference": "Daniel 6:10",
+    "verse": "Now when Daniel learned that the decree had been published, he went home to his upstairs room where the windows opened toward Jerusalem. Three times a day he got down on his knees and prayed, giving thanks to his God, just as he had done before.",
+    "title": "Daniel - giving top priority to the fellowship"
+  },
+  {
+    "id": 110,
+    "pack": "Quiet Time",
+    "memory_pack": "Quiet Time",
+    "pack_description": "Examples of Quiet Time",
+    "reference": "Mark 4:34",
+    "verse": "He did not say anything to them without using a parable. But when he was alone with his own disciples, he explained everything.",
+    "title": "Disciples - understanding the word when alone with Jesus"
   }
  ]
