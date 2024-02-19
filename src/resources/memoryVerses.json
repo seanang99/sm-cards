@@ -730,15 +730,6 @@
   },
   {
     "id": 82,
-    "pack": "",
-    "memory_pack": "",
-    "pack_description": "",
-    "reference": "",
-    "verse": "",
-    "title": ""
-  },
-  {
-    "id": 83,
     "pack": "AoS",
     "memory_pack": "AoS",
     "pack_description": "Assurance of Salvation",
@@ -747,7 +738,7 @@
     "title": "Assurance based on the Word"
   },
   {
-    "id": 84,
+    "id": 83,
     "pack": "AoS",
     "memory_pack": "AoS",
     "pack_description": "Assurance of Salvation",
@@ -756,7 +747,7 @@
     "title": "Assurance based on the Word"
   },
   {
-    "id": 85,
+    "id": 84,
     "pack": "Quiet Time",
     "memory_pack": "Quiet Time",
     "pack_description": "Why do we have Quiet Time?",
@@ -765,7 +756,7 @@
     "title": "God wants to fellowship with us"
   },
   {
-    "id": 86,
+    "id": 85,
     "pack": "Quiet Time",
     "memory_pack": "Quiet Time",
     "pack_description": "Why do we have Quiet Time?",
@@ -774,7 +765,7 @@
     "title": "God wants to fellowship with us"
   },
   {
-    "id": 87,
+    "id": 86,
     "pack": "Quiet Time",
     "memory_pack": "Quiet Time",
     "pack_description": "Why do we have Quiet Time?",
@@ -783,7 +774,7 @@
     "title": "God's command"
   },
   {
-    "id": 88,
+    "id": 87,
     "pack": "Quiet Time",
     "memory_pack": "Quiet Time",
     "pack_description": "Why do we have Quiet Time?",
@@ -792,7 +783,7 @@
     "title": "God's command"
   },
   {
-    "id": 89,
+    "id": 88,
     "pack": "Quiet Time",
     "memory_pack": "Quiet Time",
     "pack_description": "Why do we have Quiet Time?",
@@ -801,7 +792,7 @@
     "title": "Promise of blessings"
   },
   {
-    "id": 90,
+    "id": 89,
     "pack": "Quiet Time",
     "memory_pack": "Quiet Time",
     "pack_description": "Why do we have Quiet Time?",
@@ -810,7 +801,7 @@
     "title": "Promise of blessings"
   },
   {
-    "id": 91,
+    "id": 90,
     "pack": "Quiet Time",
     "memory_pack": "Quiet Time",
     "pack_description": "Why do we have Quiet Time?",
@@ -819,7 +810,7 @@
     "title": "To discern and obey God's will"
   },
   {
-    "id": 92,
+    "id": 91,
     "pack": "Quiet Time",
     "memory_pack": "Quiet Time",
     "pack_description": "Why do we have Quiet Time?",
@@ -828,7 +819,7 @@
     "title": "To discern and obey God's will"
   },
   {
-    "id": 93,
+    "id": 92,
     "pack": "Quiet Time",
     "memory_pack": "Quiet Time",
     "pack_description": "What is Quiet Time?",
@@ -837,7 +828,7 @@
     "title": "Looking on the Lord"
   },
   {
-    "id": 94,
+    "id": 93,
     "pack": "Quiet Time",
     "memory_pack": "Quiet Time",
     "pack_description": "What is Quiet Time?",
@@ -846,7 +837,7 @@
     "title": "Looking on the Lord"
   },
   {
-    "id": 95,
+    "id": 94,
     "pack": "Quiet Time",
     "memory_pack": "Quiet Time",
     "pack_description": "What is Quiet Time?",
@@ -855,7 +846,7 @@
     "title": "Coming to the Lord with thirst"
   },
   {
-    "id": 96,
+    "id": 95,
     "pack": "Quiet Time",
     "memory_pack": "Quiet Time",
     "pack_description": "What is Quiet Time?",
@@ -864,7 +855,7 @@
     "title": "Coming to the Lord with thirst"
   },
   {
-    "id": 97,
+    "id": 96,
     "pack": "Quiet Time",
     "memory_pack": "Quiet Time",
     "pack_description": "What is Quiet Time?",
@@ -873,7 +864,7 @@
     "title": "Casting our burdens on the Lord"
   },
   {
-    "id": 98,
+    "id": 97,
     "pack": "Quiet Time",
     "memory_pack": "Quiet Time",
     "pack_description": "What is Quiet Time?",
@@ -882,7 +873,7 @@
     "title": "Casting our burdens on the Lord"
   },
   {
-    "id": 99,
+    "id": 98,
     "pack": "Quiet Time",
     "memory_pack": "Quiet Time",
     "pack_description": "What is Quiet Time?",
@@ -891,7 +882,7 @@
     "title": "Taking refuge and rest in the Lord"
   },
   {
-    "id": 100,
+    "id": 99,
     "pack": "Quiet Time",
     "memory_pack": "Quiet Time",
     "pack_description": "What is Quiet Time?",
@@ -900,7 +891,7 @@
     "title": "Taking refuge and rest in the Lord"
   },
   {
-    "id": 101,
+    "id": 100,
     "pack": "Quiet Time",
     "memory_pack": "Quiet Time",
     "pack_description": "What is Quiet Time?",
@@ -909,7 +900,7 @@
     "title": "Meeting the Lord in the Word and prayer"
   },
   {
-    "id": 102,
+    "id": 101,
     "pack": "Quiet Time",
     "memory_pack": "Quiet Time",
     "pack_description": "What is Quiet Time?",
@@ -918,7 +909,7 @@
     "title": "Meeting the Lord in the Word and prayer"
   },
   {
-    "id": 103,
+    "id": 102,
     "pack": "Quiet Time",
     "memory_pack": "Quiet Time",
     "pack_description": "What is Quiet Time?",
@@ -927,7 +918,7 @@
     "title": "Worshipping the Lord"
   },
   {
-    "id": 104,
+    "id": 103,
     "pack": "Quiet Time",
     "memory_pack": "Quiet Time",
     "pack_description": "What is Quiet Time?",
@@ -936,7 +927,7 @@
     "title": "Worshipping the Lord"
   },
   {
-    "id": 105,
+    "id": 104,
     "pack": "Quiet Time",
     "memory_pack": "Quiet Time",
     "pack_description": "What is Quiet Time?",
@@ -945,7 +936,7 @@
     "title": "Getting daily satisfaction"
   },
   {
-    "id": 106,
+    "id": 105,
     "pack": "Quiet Time",
     "memory_pack": "Quiet Time",
     "pack_description": "What is Quiet Time?",
@@ -954,7 +945,7 @@
     "title": "Getting daily satisfaction"
   },
   {
-    "id": 107,
+    "id": 106,
     "pack": "Quiet Time",
     "memory_pack": "Quiet Time",
     "pack_description": "Examples of Quiet Time",
@@ -963,7 +954,7 @@
     "title": "Jesus - praying very early in the morning"
   },
   {
-    "id": 108,
+    "id": 107,
     "pack": "Quiet Time",
     "memory_pack": "Quiet Time",
     "pack_description": "Examples of Quiet Time",
@@ -972,7 +963,7 @@
     "title": "Moses - personal fellowship with the Lord"
   },
   {
-    "id": 109,
+    "id": 108,
     "pack": "Quiet Time",
     "memory_pack": "Quiet Time",
     "pack_description": "Examples of Quiet Time",
@@ -981,7 +972,7 @@
     "title": "Daniel - giving top priority to the fellowship"
   },
   {
-    "id": 110,
+    "id": 109,
     "pack": "Quiet Time",
     "memory_pack": "Quiet Time",
     "pack_description": "Examples of Quiet Time",
