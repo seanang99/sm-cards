@@ -61,6 +61,7 @@ const HomePage = () => {
                   test={testMode}
                   title={v.title}
                   subtitle={v.reference}
+                  packDescription={v.pack_description}
                   content={v.verse}
                   score={score}
                   setScore={setScore}

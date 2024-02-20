@@ -6,6 +6,39 @@
   &__test {
     width: auto;
   }
+
+  &__body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+    div {
+      flex: 1;
+    }
+  }
+
+  &__content {
+    flex: 1 1 auto;
+  }
+
+  &__subtitle {
+    font-size: bold;
+    font-weight: 300;
+  }
+
+  &__footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    p {
+      margin-top: auto;
+      margin-bottom: 0;
+      font-size: small;
+      font-weight: 100;
+      font-style: italic;
+    }
+  }
 }
 
 .form-control-validator {
@@ -33,7 +66,7 @@
 .feedback {
   font-weight: 600;
   margin: 0.4rem 0;
-  
+
   &__correct {
     color: green;
   }

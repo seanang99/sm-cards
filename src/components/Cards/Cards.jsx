@@ -9,11 +9,11 @@ import "./style.scss";
 
 /**
  * Renders card component with the customisable props
- * @params {title, subtitles, content, test} props
+ * @params {title, subtitles, content, test, packDescription} props
  * @returns Card component
  */
 const Cards = (props) => {
-  const { title, subtitle, content, test } = props;
+  const { title, subtitle, content, test, packDescription } = props;
 
   const [userTitle, setUserTitle] = useState("");
   const [userVerse, setUserVerse] = useState("");
@@ -93,9 +93,8 @@ const Cards = (props) => {
               <Form.Label>Title</Form.Label>
               <Form.Control
                 type="text"
-                className={`form-input ${
-                  validateTitle ? "form-input-invalid" : ""
-                }`}
+                className={`form-input ${validateTitle ? "form-input-invalid" : ""
+                  }`}
                 value={userTitle}
                 onChange={(e) => {
                   setValidateTitle(!e.target.value);
@@ -103,9 +102,8 @@ const Cards = (props) => {
                 }}
               />
               <p
-                className={`form-control-validator${
-                  validateTitle ? "" : "__hidden"
-                }`}
+                className={`form-control-validator${validateTitle ? "" : "__hidden"
+                  }`}
               >
                 Title cannot be blank
               </p>
@@ -116,9 +114,8 @@ const Cards = (props) => {
               <Form.Control
                 as="textarea"
                 rows={3}
-                className={`form-input ${
-                  validateVerse ? "form-input-invalid" : ""
-                }`}
+                className={`form-input ${validateVerse ? "form-input-invalid" : ""
+                  }`}
                 value={userVerse}
                 onChange={(e) => {
                   setValidateVerse(!e.target.value);
@@ -126,9 +123,8 @@ const Cards = (props) => {
                 }}
               />
               <p
-                className={`form-control-validator${
-                  validateVerse ? "" : "__hidden"
-                }`}
+                className={`form-control-validator${validateVerse ? "" : "__hidden"
+                  }`}
               >
                 Verse cannot be blank
               </p>
@@ -161,8 +157,15 @@ const Cards = (props) => {
         <>
           <Card.Header>{title}</Card.Header>
           <Card.Body>
-            <Card.Subtitle>{subtitle}</Card.Subtitle>
-            <Card.Text>{content}</Card.Text>
+            <div className="card__body">
+              <div className="card___content">
+                <p className="card__subtitle">{subtitle}</p>
+                <p>{content}</p>
+              </div>
+              <div className="card__footer">
+                <p>{packDescription}</p>
+              </div>
+            </div>
           </Card.Body>
         </>
       )}
