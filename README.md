@@ -17,20 +17,31 @@ In the book of Psalm, Chapter 119, the Psalmist writes:
 
 
 ## Functions:
-1. View memory bible verses according to TMS 60 (Topical Memory System)
-2. Filter by memory packs `[done]`
-3. Test Mode which hides the title and verse and replaces it with input for the user to test themselves. `[done]`
-4. Validate input based on Uni Navigators Scripture Memory Contest rules `[to-do]`
-5. Scoring Mechanism `[to-do]`
-6. Link client application to custom API (another project) instead of using mock data `[in-progress]`
-7. Badges and Scoreboard `[new]` `[to-do]`
-8. Daily Check-in `[new]` `[to-do]`
-9. Users and Authentication `[new]` `[to-do]`
+1. View memory bible verses according to TMS 60 (Topical Memory System) `✅`
+2. Filter by memory packs `✅`
+3. Test Mode which hides the title and verse and replaces it with input for the user to test themselves. `✅`
+4. Add new verses from DEP 242 `[in-progress]`
+
+### Testing & Gamification
+1. Improve testing mechanism - see scoring
+2. Randomise Cards
+3. Testing - Title Only
+4. Testing - Missing words
+5. Memory-match Game (probably web-only)
+
+### Scoring
+1. Validate input based on Uni Navigators Scripture Memory Contest rules `[to-do]`
+2. Scoring Mechanism `[to-do]`
+
+### User Authentication
+1. Users and Authentication - Google/Apple/Password login `[to-do]`
+2. Daily Check-in `[to-do]`
+3.  Badges and Scoreboard `[to-do]`
 
 _Note: Verses are in NIV 84._
 
 Author: Sean A, 
-Last Update: 11 Jan 2023
+Last Update: 20 Feb 2024
 
 ## Available Scripts
 
