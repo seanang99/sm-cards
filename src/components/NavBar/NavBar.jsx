@@ -11,7 +11,7 @@ import "./style.scss";
  * @returns NavBar component
  */
 const NavBar = (props) => {
-  const { testMode, setTestMode, pack, setPack } = props;
+  const { memoryMode, setMemoryMode, testMode, setTestMode, pack, setPack } = props;
 
   return (
     <>
@@ -21,6 +21,13 @@ const NavBar = (props) => {
 
           <div className="nav-bar__right">
             {/* <p className="nav-bar__score">Score: {score}</p> */}
+            <Form.Check
+              type="switch"
+              id="memory-mode-switch"
+              label="Memory Mode"
+              checked={memoryMode}
+              onChange={() => setMemoryMode(!memoryMode)}
+            />
             <Form.Check
               type="switch"
               id="test-mode-switch"

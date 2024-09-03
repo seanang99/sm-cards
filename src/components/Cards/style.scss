@@ -2,6 +2,8 @@
   min-height: 10rem;
   max-width: 24rem;
   margin: 1rem;
+  perspective: 1000px;
+  cursor: pointer;
 
   &__test {
     width: auto;
