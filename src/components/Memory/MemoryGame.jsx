@@ -68,9 +68,6 @@ function MemoryGame({ verses }) {
         }
     }, [flippedCards, cards, matchedPairs]);
 
-    const matchLogic = (v1, v2) => {
-    }
-
     const resetGame = () => {
         setCards(generateCards());
         setFlippedCards([]);
