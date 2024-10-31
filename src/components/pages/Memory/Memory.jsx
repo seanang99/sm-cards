@@ -1,12 +1,12 @@
 import { React, useState, useEffect } from "react";
-import Cards from "../../Cards";
 import NavBar from "../../NavBar";
 import Footer from "../../Footer/Footer";
 import data from "../../../resources/memoryVerses.json";
 import dataPacks from "../../../resources/packs.json";
 import "./style.scss";
+import MemoryGame from "../../Memory/MemoryGame";
 
-const HomePage = () => {
+const Memory = () => {
   const [testMode, setTestMode] = useState(false);
   const [packs, setPacks] = useState([]);
   const [allVerses, setAllVerses] = useState([]);
@@ -41,7 +41,6 @@ const HomePage = () => {
     <div className="page-layout">
       <header>
         <NavBar
-          isTestMode={true}
           testMode={testMode}
           setTestMode={setTestMode}
           pack={packs}
@@ -54,26 +53,16 @@ const HomePage = () => {
         {verses.length ? (
           <>
             <>
-              {verses.map((v) => {
-                return (
-                  <Cards
-                    key={`${v.id} + ${v.memory_pack}`}
-                    test={testMode}
-                    title={v.title}
-                    subtitle={v.reference}
-                    packDescription={v.pack_description}
-                    content={v.verse}
-                    score={score}
-                    setScore={setScore}
-                  />
-                );
-              })}
+              <MemoryGame
+                verses={verses}
+              />
             </>
           </>
         ) : (
-          <>
+          <div>
+            <p> Memory Game </p>
             <p> Please select a Memory Pack</p>
-          </>
+          </div>
         )}
       </div>
       <Footer />
@@ -81,4 +70,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default Memory;

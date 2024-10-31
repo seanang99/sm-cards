@@ -1,8 +1,5 @@
 import React, { useState } from "react";
-import Button from "react-bootstrap/Button";
-import Card from "react-bootstrap/Card";
-import Form from "react-bootstrap/Form";
-
+import { Button, Card, Form } from "react-bootstrap";
 import { checkTitleAndVerse } from "../../utils/checkSM";
 
 import "./style.scss";
@@ -30,7 +27,6 @@ const Cards = (props) => {
       userVerse,
     };
     const res = checkTitleAndVerse(data);
-    console.log({ res });
     setIsCorrect(res);
   };
 
@@ -79,8 +75,13 @@ const Cards = (props) => {
   };
 
   const handleClear = () => {
+    // Clear title and verse input
     setUserTitle("");
     setUserVerse("");
+
+    // Reset any warnings and hide correct answer
+    setSubmitted(false);
+
   };
 
   return (
@@ -92,19 +93,15 @@ const Cards = (props) => {
             <Form.Group controlId="Form.ControlTitle">
               <Form.Label>Title</Form.Label>
               <Form.Control
+                className={`form-input ${validateTitle ? "form-input-invalid" : ""}`}
                 type="text"
-                className={`form-input ${validateTitle ? "form-input-invalid" : ""
-                  }`}
                 value={userTitle}
                 onChange={(e) => {
-                  setValidateTitle(!e.target.value);
+                  setValidateTitle(!e.target.value); //Validate if empty
                   setUserTitle(e.target.value);
                 }}
               />
-              <p
-                className={`form-control-validator${validateTitle ? "" : "__hidden"
-                  }`}
-              >
+              <p className={`form-control-validator${validateTitle ? "" : "__hidden"}`}>
                 Title cannot be blank
               </p>
             </Form.Group>
@@ -114,11 +111,10 @@ const Cards = (props) => {
               <Form.Control
                 as="textarea"
                 rows={3}
-                className={`form-input ${validateVerse ? "form-input-invalid" : ""
-                  }`}
+                className={`form-input ${validateVerse ? "form-input-invalid" : ""}`}
                 value={userVerse}
                 onChange={(e) => {
-                  setValidateVerse(!e.target.value);
+                  setValidateVerse(!e.target.value); //Validate if empty
                   setUserVerse(e.target.value);
                 }}
               />
@@ -129,20 +125,19 @@ const Cards = (props) => {
                 Verse cannot be blank
               </p>
             </Form.Group>
+
             <Button
               className="form-button"
-              as="input"
               variant="primary"
               value="Check"
               onClick={() => handleOnSubmit()}
-            />
+            >Check</Button>
             <Button
               className="form-button"
-              as="input"
               variant="danger"
               value="Clear"
               onClick={() => handleClear()}
-            />
+            >Clear</Button>
 
             {submitted ? (
               <>
