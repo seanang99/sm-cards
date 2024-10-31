@@ -12,7 +12,7 @@ const Memory = () => {
   const [allVerses, setAllVerses] = useState([]);
   const [verses, setVerses] = useState([]);
   const [mvPack, setMvPack] = useState("");
-  const [score, setScore] = useState(0);
+  // const [score, setScore] = useState(0);
 
   // Get Memory Packs and all verses on load
   useEffect(() => {
@@ -45,7 +45,7 @@ const Memory = () => {
           setTestMode={setTestMode}
           pack={packs}
           setPack={setMvPack}
-          score={score}
+          score={0}
         />
       </header>
 

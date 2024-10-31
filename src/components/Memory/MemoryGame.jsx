@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Card from './Card';
 
-// import "./style.scss";
+import "./style.scss";
 
 function generateCards(verses) {
 
