@@ -979,5 +979,695 @@
     "reference": "Mark 4:34",
     "verse": "He did not say anything to them without using a parable. But when he was alone with his own disciples, he explained everything.",
     "title": "Disciples - understanding the word when alone with Jesus"
+  },
+  {
+    "id": 110,
+    "pack_num": 3,
+    "pack": "DEP 242",
+    "memory_pack": "The Word",
+    "pack_description": "",
+    "reference": "2 Timothy 3:16",
+    "verse": "All scripture is God-breathed and is useful for teaching, rebuking, correcting and training in righteousness.",
+    "title": "Inspired by God"
+  },
+  {
+    "id": 111,
+    "pack_num": 3,
+    "pack": "DEP 242",
+    "memory_pack": "The Word",
+    "pack_description": "",
+    "reference": "2 Peter 1:21",
+    "verse": "For prophecy never had its origin in the will of man, but men spoke from God as they were carried along by the Holy Spirit.",
+    "title": "Inspired by God"
+  },
+  {
+    "id": 112,
+    "pack_num": 3,
+    "pack": "DEP 242",
+    "memory_pack": "The Word",
+    "pack_description": "",
+    "reference": "Matthew 24:35",
+    "verse": "Heaven and earth will pass away, but my words will never pass away.",
+    "title": "Standing forever never changing"
+  },
+  {
+    "id": 113,
+    "pack_num": 3,
+    "pack": "DEP 242",
+    "memory_pack": "The Word",
+    "pack_description": "",
+    "reference": "1 Peter 1:24-25",
+    "verse": "For \"All men are like grass and all their glory is like the flowers of the field. The grass withers and the flowers fall, but the word of the Lord stands forever.\" And this is the word that was preached to you.",
+    "title": "Standing forever never changing"
+  },
+  {
+    "id": 114,
+    "pack_num": 3,
+    "pack": "DEP 242",
+    "memory_pack": "The Word",
+    "pack_description": "",
+    "reference": "John 17:17",
+    "verse": "Sanctify them by the truth; your word is truth.",
+    "title": "Being the truth"
+  },
+  {
+    "id": 115,
+    "pack_num": 3,
+    "pack": "DEP 242",
+    "memory_pack": "The Word",
+    "pack_description": "",
+    "reference": "2 Samuel 7:28",
+    "verse": "O Sovereign Lord, you are God! Your words are trustworthy, and you have promised these good things to your servant.",
+    "title": "Being the truth"
+  },
+  {
+    "id": 116,
+    "pack_num": 3,
+    "pack": "DEP 242",
+    "memory_pack": "The Word",
+    "pack_description": "",
+    "reference": "Jeremiah 23:29",
+    "verse": "\"Is not my word like fire,\" declares the LORD, \"and like a hammer that breaks a rock in pieces?\"",
+    "title": "Having Power"
+  },
+  {
+    "id": 117,
+    "pack_num": 3,
+    "pack": "DEP 242",
+    "memory_pack": "The Word",
+    "pack_description": "",
+    "reference": "2 Timothy 2:9",
+    "verse": "For which I am suffering even to the point of being chained like a criminal. But God's word is not chained.",
+    "title": "Having Power"
+  },
+  {
+    "id": 118,
+    "pack_num": 3,
+    "pack": "DEP 242",
+    "memory_pack": "The Word",
+    "pack_description": "",
+    "reference": "Matthew 4:4",
+    "verse": "Jesus answered \"It is written: 'Man does not live on bread alone, but on every word that comes from the mouth of God.'\"",
+    "title": "Jesus also confirmed the word"
+  },
+  {
+    "id": 119,
+    "pack_num": 3,
+    "pack": "DEP 242",
+    "memory_pack": "The Word",
+    "pack_description": "",
+    "reference": "Luke 24:27",
+    "verse": "And beginning with Moses and all the prophets, he explained to them what was said in all the Scriptures concerning himself.",
+    "title": "Jesus also confirmed the word"
+  },
+  {
+    "id": 120,
+    "pack_num": 3,
+    "pack": "DEP 242",
+    "memory_pack": "The Word",
+    "pack_description": "Value of the Word",
+    "reference": "1 Peter 1:23",
+    "verse": "For you have been born again, not of perishable seed, but of imperishable, through the living and enduring word of God.",
+    "title": "Making us born again"
+  },
+  {
+    "id": 121,
+    "pack_num": 3,
+    "pack": "DEP 242",
+    "memory_pack": "The Word",
+    "pack_description": "Value of the Word",
+    "reference": "James 1:18",
+    "verse": "He chose to give us birth through the word of truth, that we might be a kind of firstfruits of all he created.",
+    "title": "Making us born again"
+  },
+  {
+    "id": 122,
+    "pack_num": 3,
+    "pack": "DEP 242",
+    "memory_pack": "The Word",
+    "pack_description": "Value of the Word",
+    "reference": "1 Peter 2:2",
+    "verse": "Like newborn babies, crave pure spiritual milk, so that by it you may grow up in your salvation.",
+    "title": "Helping us grow up"
+  },
+  {
+    "id": 123,
+    "pack_num": 3,
+    "pack": "DEP 242",
+    "memory_pack": "The Word",
+    "pack_description": "Value of the Word",
+    "reference": "Acts 20:32",
+    "verse": "Now I commit you to God and to the word of his grace, which can build you up and give you an inheritance among all those who are sanctified.",
+    "title": "Helping us grow up"
+  },
+  {
+    "id": 124,
+    "pack_num": 3,
+    "pack": "DEP 242",
+    "memory_pack": "The Word",
+    "pack_description": "Value of the Word",
+    "reference": "Psalm 119:105",
+    "verse": "Your word is a lamp to my feet and a light for my path.",
+    "title": "Giving Guidance"
+  },
+  {
+    "id": 125,
+    "pack_num": 3,
+    "pack": "DEP 242",
+    "memory_pack": "The Word",
+    "pack_description": "Value of the Word",
+    "reference": "Proverbs 6:22-23",
+    "verse": "When you walk, they will guide you; when you sleep, they will watch over you; when you awake they will speak to you. For these commands are a lamp, this teaching is a light, and the corrections of discipline are the way to life.",
+    "title": "Giving Guidance"
+  },
+  {
+    "id": 126,
+    "pack_num": 3,
+    "pack": "DEP 242",
+    "memory_pack": "The Word",
+    "pack_description": "Value of the Word",
+    "reference": "Psalm 107:20",
+    "verse": "He sent forth his word and healed them; he rescued them from the grave.",
+    "title": "Solving Problems"
+  },
+  {
+    "id": 127,
+    "pack_num": 3,
+    "pack": "DEP 242",
+    "memory_pack": "The Word",
+    "pack_description": "Value of the Word",
+    "reference": "Matthew 8:8",
+    "verse": "The centurion replied, \"Lord, I do not deserve to have you come under my roof. But just say the word, and my servant will be healed.\"",
+    "title": "Solving Problems"
+  },
+  {
+    "id": 128,
+    "pack_num": 3,
+    "pack": "DEP 242",
+    "memory_pack": "The Word",
+    "pack_description": "Value of the Word",
+    "reference": "Jeremiah 15:16",
+    "verse": "When your words came, I ate them, they were my joy and my heart's delight, for I bear your name, O LORD God Almighty.",
+    "title": "Being our joy and delight"
+  },
+  {
+    "id": 129,
+    "pack_num": 3,
+    "pack": "DEP 242",
+    "memory_pack": "The Word",
+    "pack_description": "Value of the Word",
+    "reference": "Psalm 119:111",
+    "verse": "Your statutes are my heritage forever; they are the joy of my heart.",
+    "title": "Being our joy and delight"
+  },
+  {
+    "id": 130,
+    "pack_num": 3,
+    "pack": "DEP 242",
+    "memory_pack": "The Word",
+    "pack_description": "Value of the Word",
+    "reference": "Ephesians 6:17",
+    "verse": "Take the helmet of salvation and the sword of the Spirit, which is the word of God.",
+    "title": "Being our spiritual weapons"
+  },
+  {
+    "id": 131,
+    "pack_num": 3,
+    "pack": "DEP 242",
+    "memory_pack": "The Word",
+    "pack_description": "Value of the Word",
+    "reference": "Hebrews 4:12",
+    "verse": "For the word of God is living and active. Sharper than any double-edged sword, it penetrates even to dividing soul and spirit, joints and marrow; it judges the thoughts and attitudes of the heart.",
+    "title": "Being our spiritual weapons"
+  },
+  {
+    "id": 132,
+    "pack_num": 3,
+    "pack": "DEP 242",
+    "memory_pack": "The Word",
+    "pack_description": "Attitude to the Word",
+    "reference": "Acts 17:11",
+    "verse": "Now the Bereans were of more noble character than the Thessalonians, for they received the message with great eagerness and examined the scriptures every day to see if what Paul said was true.",
+    "title": "Search the Word every day"
+  },
+  {
+    "id": 133,
+    "pack_num": 3,
+    "pack": "DEP 242",
+    "memory_pack": "The Word",
+    "pack_description": "Attitude to the Word",
+    "reference": "Psalm 119:97",
+    "verse": "Oh, how I love your law! I meditate on it all day long.",
+    "title": "Meditate on the Word all day long"
+  },
+  {
+    "id": 134,
+    "pack_num": 3,
+    "pack": "DEP 242",
+    "memory_pack": "The Word",
+    "pack_description": "Attitude to the Word",
+    "reference": "Ezra 7:10",
+    "verse": "For Ezra had devoted himself to the study and observance of the Law of the Lord, and to teaching its decrees and laws in Israel.",
+    "title": "Obey the Word before teaching"
+  },
+  {
+    "id": 135,
+    "pack_num": 3,
+    "pack": "DEP 242",
+    "memory_pack": "The Word",
+    "pack_description": "Attitude to the Word",
+    "reference": "Job 23:12",
+    "verse": "I have not departed from the commands of his lips; I have treasured the words of his mouth more than my daily bread.",
+    "title": "Treasure the Word more than daily bread"
+  },
+  {
+    "id": 136,
+    "pack_num": 3,
+    "pack": "DEP 242",
+    "memory_pack": "The Word",
+    "pack_description": "Attitude to the Word",
+    "reference": "Luke 5:5-6",
+    "verse": "Simon answered, \"Master, we've worked hard all night and haven't caught anything. But because you say so, I will let down the nets.\". When they had done so, they caught such a large number of fish that their nets began to break.",
+    "title": "Trust and Obey the Word"
+  },
+  {
+    "id": 137,
+    "pack_num": 3,
+    "pack": "DEP 242",
+    "memory_pack": "The Word",
+    "pack_description": "How to take in the Word (Word Hand Illustration)",
+    "reference": "Romans 10:17",
+    "verse": "Consequently, faith comes from hearing the message, and the message is heard through the word of Christ.",
+    "title": "Hearing"
+  },
+  {
+    "id": 138,
+    "pack_num": 3,
+    "pack": "DEP 242",
+    "memory_pack": "The Word",
+    "pack_description": "How to take in the Word (Word Hand Illustration)",
+    "reference": "Luke 11:28",
+    "verse": "He replied, \"Blessed rather are those who hear the word of God and obey it\".",
+    "title": "Hearing"
+  },
+  {
+    "id": 139,
+    "pack_num": 3,
+    "pack": "DEP 242",
+    "memory_pack": "The Word",
+    "pack_description": "How to take in the Word (Word Hand Illustration)",
+    "reference": "Revelation 1:3",
+    "verse": "Blessed is the one who reads the words of this prophecy, and blessed are those who hear it and take to heart what is written in it, because the time is near.",
+    "title": "Reading"
+  },
+  {
+    "id": 140,
+    "pack_num": 3,
+    "pack": "DEP 242",
+    "memory_pack": "The Word",
+    "pack_description": "How to take in the Word (Word Hand Illustration)",
+    "reference": "Deuteronomy 17:19",
+    "verse": "It is to be with him, and he is to read it all the days of his life, so that he may learn to revere the Lord his God and follow carefully all the words of this law and these decrees.",
+    "title": "Reading"
+  },
+  {
+    "id": 141,
+    "pack_num": 3,
+    "pack": "DEP 242",
+    "memory_pack": "The Word",
+    "pack_description": "How to take in the Word (Word Hand Illustration)",
+    "reference": "Acts 17:11",
+    "verse": "Now the Bereans were of more noble character than the Thessalonians, for they received the message with great eagerness and examined the scriptures every day to see if what Paul said was true.",
+    "title": "Studying"
+  },
+  {
+    "id": 142,
+    "pack_num": 3,
+    "pack": "DEP 242",
+    "memory_pack": "The Word",
+    "pack_description": "How to take in the Word (Word Hand Illustration)",
+    "reference": "2 Timothy 2:15",
+    "verse": "Do your best to present yourself to God as one approved, a workman who does not need to be ashamed and who correctly handles the word of truth.",
+    "title": "Studying"
+  },
+  {
+    "id": 143,
+    "pack_num": 3,
+    "pack": "DEP 242",
+    "memory_pack": "The Word",
+    "pack_description": "How to take in the Word (Word Hand Illustration)",
+    "reference": "Deuteronomy 6:6",
+    "verse": "These commandments that I give you today are to be upon your hearts.",
+    "title": "Memorizing"
+  },
+  {
+    "id": 144,
+    "pack_num": 3,
+    "pack": "DEP 242",
+    "memory_pack": "The Word",
+    "pack_description": "How to take in the Word (Word Hand Illustration)",
+    "reference": "Proverbs 7:1-3",
+    "verse": "My son, keep my words and store up my commands within you. Keep my commands and you will live; guard my teachings as the apple of your eye. Bind them on your fingers; write them on the tablet of your heart.",
+    "title": "Memorizing"
+  },
+  {
+    "id": 145,
+    "pack_num": 3,
+    "pack": "DEP 242",
+    "memory_pack": "The Word",
+    "pack_description": "How to take in the Word (Word Hand Illustration)",
+    "reference": "Psalm 1:1-2",
+    "verse": "Blessed is the man who does not walk in the counsel of the wicked or stand in the way of sinners or sit in the seat of mockers. But his delight is in the law of the LORD, and on his law he meditates day and night.",
+    "title": "Meditating"
+  },
+  {
+    "id": 146,
+    "pack_num": 3,
+    "pack": "DEP 242",
+    "memory_pack": "The Word",
+    "pack_description": "How to take in the Word (Word Hand Illustration)",
+    "reference": "Joshua 1:8",
+    "verse": "Do not let this Book of the Law depart from your mouth; meditate on it day and night, so that you may be careful to do everything written in it. Then you will be prosperous and successful.",
+    "title": "Meditating"
+  },
+  {
+    "id": 147,
+    "pack_num": 4,
+    "pack": "DEP 242",
+    "memory_pack": "Prayer",
+    "pack_description": "Command of prayer",
+    "reference": "1 Thessalonians 5:17",
+    "verse": "Pray without ceasing.",
+    "title": "Cease not to pray"
+  },
+  {
+    "id": 148,
+    "pack_num": 4,
+    "pack": "DEP 242",
+    "memory_pack": "Prayer",
+    "pack_description": "Command of prayer",
+    "reference": "Colossians 4:2",
+    "verse": "Devote yourselves to prayer, being watchful and thankful.",
+    "title": "Devote yourself to prayer"
+  },
+  {
+    "id": 149,
+    "pack_num": 4,
+    "pack": "DEP 242",
+    "memory_pack": "Prayer",
+    "pack_description": "Command of prayer",
+    "reference": "1 Peter 4:7",
+    "verse": "The end of all things is near. Therefore be clear minded and self-controlled so that you can pray.",
+    "title": "Be alert to pray"
+  },
+  {
+    "id": 150,
+    "pack_num": 4,
+    "pack": "DEP 242",
+    "memory_pack": "Prayer",
+    "pack_description": "Command of prayer",
+    "reference": "1 Timothy 2:1-2",
+    "verse": "I urge, then, first of all, that requests, prayers, intercession and thanksgiving be made for everyone - for kings and all those in authority, that we may live peaceful and quiet lives in all godliness and holiness.",
+    "title": "Pray for everyone"
+  },
+  {
+    "id": 151,
+    "pack_num": 4,
+    "pack": "DEP 242",
+    "memory_pack": "Prayer",
+    "pack_description": "Promises and blessings of prayer",
+    "reference": "John 14:13-14",
+    "verse": "And I will do whatever you ask in my name, so that the Son may bring glory to the Father. You may ask me for anything in my name, and I will do it.",
+    "title": "Promise to answer"
+  },
+  {
+    "id": 152,
+    "pack_num": 4,
+    "pack": "DEP 242",
+    "memory_pack": "Prayer",
+    "pack_description": "Promises and blessings of prayer",
+    "reference": "Ephesians 3:20",
+    "verse": "Now to him who is able to do immeasurably more than all we ask or imagine, according to his power that is at work within us.",
+    "title": "Immeasurable Answer"
+  },
+  {
+    "id": 153,
+    "pack_num": 4,
+    "pack": "DEP 242",
+    "memory_pack": "Prayer",
+    "pack_description": "Promises and blessings of prayer",
+    "reference": "Jeremiah 33:3",
+    "verse": "Call to me and I will answer you and tell you great and unsearchable things you do not know.",
+    "title": "Understanding God's will"
+  },
+  {
+    "id": 154,
+    "pack_num": 4,
+    "pack": "DEP 242",
+    "memory_pack": "Prayer",
+    "pack_description": "Promises and blessings of prayer",
+    "reference": "James 1:5",
+    "verse": "If any of you lacks wisdom, he should ask God, who gives generously to all without finding fault, and it will be given to him.",
+    "title": "Getting the wisdom from God"
+  },
+  {
+    "id": 155,
+    "pack_num": 4,
+    "pack": "DEP 242",
+    "memory_pack": "Prayer",
+    "pack_description": "Promises and blessings of prayer",
+    "reference": "Psalm 34:4",
+    "verse": "I sought the LORD, and he answered me; he delivered me from all my fears.",
+    "title": "Delivering us from fears"
+  },
+  {
+    "id": 156,
+    "pack_num": 4,
+    "pack": "DEP 242",
+    "memory_pack": "Prayer",
+    "pack_description": "Promises and blessings of prayer",
+    "reference": "Psalm 50:15",
+    "verse": "And call upon me in the day of trouble; I will deliver you, and you will honor me.",
+    "title": "Delivering us from trouble"
+  },
+  {
+    "id": 157,
+    "pack_num": 4,
+    "pack": "DEP 242",
+    "memory_pack": "Prayer",
+    "pack_description": "Promises and blessings of prayer",
+    "reference": "Acts 4:31",
+    "verse": "After they prayed, the place where they were meeting was shaken. And they were all filled with the Holy Spirit and spoke the word of God boldly",
+    "title": "Giving us boldness"
+  },
+  {
+    "id": 158,
+    "pack_num": 4,
+    "pack": "DEP 242",
+    "memory_pack": "Prayer",
+    "pack_description": "Promises and blessings of prayer",
+    "reference": "Colossians 4:3",
+    "verse": "And pray for us, too, that God may open a door for our message, so that we may proclaim the mystery of Christ, for which I am in chains.",
+    "title": "Giving us opportunity for the gospel"
+  },
+  {
+    "id": 159,
+    "pack_num": 4,
+    "pack": "DEP 242",
+    "memory_pack": "Prayer",
+    "pack_description": "Conditions for answered prayer",
+    "reference": "John 16:24",
+    "verse": "Until now you have not asked for anything in my name. Ask and you will receive, and your joy will be complete.",
+    "title": "Pray in the name of Jesus"
+  },
+  {
+    "id": 160,
+    "pack_num": 4,
+    "pack": "DEP 242",
+    "memory_pack": "Prayer",
+    "pack_description": "Conditions for answered prayer",
+    "reference": "Matthew 21:22",
+    "verse": "If you believe, you will receive whatever you ask for in prayer.",
+    "title": "Pray in faith"
+  },
+  {
+    "id": 161,
+    "pack_num": 4,
+    "pack": "DEP 242",
+    "memory_pack": "Prayer",
+    "pack_description": "Conditions for answered prayer",
+    "reference": "Ephesians 6:18",
+    "verse": "And pray in the Spirit on all occasions with all kinds of prayers and requests. With this in mind, be alert and always keep on praying for all the saints.",
+    "title": "Pray in the Spirit"
+  },
+  {
+    "id": 162,
+    "pack_num": 4,
+    "pack": "DEP 242",
+    "memory_pack": "Prayer",
+    "pack_description": "Conditions for answered prayer",
+    "reference": "1 John 5:14-15",
+    "verse": "This is the confidence we have in approaching God: that if we ask anything according to his will, he hears us. And if we know that he hears us -- whatever we ask -- we know that we have what we asked of him.",
+    "title": "Pray in God's will"
+  },
+  {
+    "id": 163,
+    "pack_num": 4,
+    "pack": "DEP 242",
+    "memory_pack": "Prayer",
+    "pack_description": "Conditions for answered prayer",
+    "reference": "Psalm 66:18",
+    "verse": "If I had cherished sin in my heart, the Lord would not have listened.",
+    "title": "Confess and renounce the sin"
+  },
+  {
+    "id": 164,
+    "pack_num": 4,
+    "pack": "DEP 242",
+    "memory_pack": "Prayer",
+    "pack_description": "Conditions for answered prayer",
+    "reference": "1 John 3:22",
+    "verse": "And receive from him anything we ask, because we obey his commands and do what pleases him.",
+    "title": "Obey the Lord"
+  },
+  {
+    "id": 165,
+    "pack_num": 4,
+    "pack": "DEP 242",
+    "memory_pack": "Prayer",
+    "pack_description": "Conditions for answered prayer",
+    "reference": "Matthew 18:19",
+    "verse": "Again, I tell you that if two of you on earth agree about anything you ask for, it will be done for you by my Father in heaven.",
+    "title": "Pray with one accord"
+  },
+  {
+    "id": 166,
+    "pack_num": 4,
+    "pack": "DEP 242",
+    "memory_pack": "Prayer",
+    "pack_description": "Conditions for answered prayer",
+    "reference": "Matthew 7:7-8",
+    "verse": "Ask and it will be given to you; seek and you will find; knock and the door will be opened to you. For everyone who asks receives; he who seeks finds; and to him who knocks, the door will be opened.",
+    "title": "Ask and act"
+  },
+  {
+    "id": 167,
+    "pack_num": 4,
+    "pack": "DEP 242",
+    "memory_pack": "Prayer",
+    "pack_description": "Conditions for answered prayer",
+    "reference": "Jeremiah 29:12-13",
+    "verse": "Then you will call upon me and come and pray to me, and I will listen to you. You will seek me and find me when you seek me with all your heart.",
+    "title": "Pray with all your heart"
+  },
+  {
+    "id": 168,
+    "pack_num": 4,
+    "pack": "DEP 242",
+    "memory_pack": "Prayer",
+    "pack_description": "Conditions for answered prayer",
+    "reference": "Nehemiah 1:8a,9",
+    "verse": "Remember the instruction you gave..., \"But if you return to me and obey my commands, then even if your exiled people are at the farthest horizon, I will gather them from there and bring them to the place I have chosen as a dwelling for my Name.",
+    "title": "Pray in claiming the promise"
+  },
+  {
+    "id": 169,
+    "pack_num": 4,
+    "pack": "DEP 242",
+    "memory_pack": "Prayer",
+    "pack_description": "Examples of prayer",
+    "reference": "Daniel 6:10",
+    "verse": "Now when Daniel learned that the decree had been published, he went home to his upstairs room where the windows opened toward Jerusalem. Three times a day he got down on his knees and prayed, giving thanks to his God, just as he had done before.",
+    "title": "Praying at the risk of life"
+  },
+  {
+    "id": 170,
+    "pack_num": 4,
+    "pack": "DEP 242",
+    "memory_pack": "Prayer",
+    "pack_description": "Examples of prayer",
+    "reference": "Luke 5:15-16",
+    "verse": "Yet the news about him spread all the more, so that crowds of people came to hear him and to be healed of their sicknesses. But Jesus often withdrew to lonely places and prayed.",
+    "title": "Giving priority to prayer"
+  },
+  {
+    "id": 171,
+    "pack_num": 4,
+    "pack": "DEP 242",
+    "memory_pack": "Prayer",
+    "pack_description": "Examples of prayer",
+    "reference": "Luke 6:12",
+    "verse": "One of those days, Jesus went out to a mountainside to pray, and spent the night praying to God.",
+    "title": "Praying all through the night"
+  },
+  {
+    "id": 172,
+    "pack_num": 4,
+    "pack": "DEP 242",
+    "memory_pack": "Prayer",
+    "pack_description": "Examples of prayer",
+    "reference": "James 5:17-18",
+    "verse": "Elijah was a man just like us. He prayed earnestly that it would not rain, and it did not rain on the land for three and a half years. Again he prayed, and the heavens gave rain, and the earth produced its crops.",
+    "title": "Praying earnestly"
+  },
+  {
+    "id": 173,
+    "pack_num": 4,
+    "pack": "DEP 242",
+    "memory_pack": "Prayer",
+    "pack_description": "Examples of prayer",
+    "reference": "Acts 16:25",
+    "verse": "About midnight Paul and Silas were praying and singing hymns to God, and the other prisoners were listening to them.",
+    "title": "Praying in the midst of hardship"
+  },
+  {
+    "id": 174,
+    "pack_num": 4,
+    "pack": "DEP 242",
+    "memory_pack": "Prayer",
+    "pack_description": "Prayer Hand Illustration",
+    "reference": "1 Chronicles 29:11-13",
+    "verse": "Yours, O LORD, is the greatness and the power and the glory and the majesty and the splendor, for everything in heaven and earth is yours. Yours, O LORD, is the kingdom; you are exalted as head over all. Wealth and honor come from you; you are the ruler of all things, in your hands are strength and power to exalt and give strength to all. Now, our God, we give you thanks, and praise your glorious name.",
+    "title": "Praising"
+  },
+  {
+    "id": 175,
+    "pack_num": 4,
+    "pack": "DEP 242",
+    "memory_pack": "Prayer",
+    "pack_description": "Prayer Hand Illustration",
+    "reference": "1 Timothy 2:1-2",
+    "verse": "I urge, then, first of all, that requests, prayers, intercession and thanksgiving be made for everyone - for kings and all those in authority, that we may live peaceful and quiet lives in all godliness and holiness.",
+    "title": "Intercession"
+  },
+  {
+    "id": 176,
+    "pack_num": 4,
+    "pack": "DEP 242",
+    "memory_pack": "Prayer",
+    "pack_description": "Prayer Hand Illustration",
+    "reference": "1 Thessalonians 5:18",
+    "verse": "Give thanks in all circumstances, for this is God's will for you in Christ Jesus.",
+    "title": "Thanksgiving"
+  },
+  {
+    "id": 177,
+    "pack_num": 4,
+    "pack": "DEP 242",
+    "memory_pack": "Prayer",
+    "pack_description": "Prayer Hand Illustration",
+    "reference": "1 John 1:9",
+    "verse": "If we confess our sins, he is faithful and just and will forgive us our sins and purify us from all unrighteousness.",
+    "title": "Confession"
+  },
+  {
+    "id": 178,
+    "pack_num": 4,
+    "pack": "DEP 242",
+    "memory_pack": "Prayer",
+    "pack_description": "Prayer Hand Illustration",
+    "reference": "Philippians 4:6-7",
+    "verse": "Do not be anxious about anything, but in everything, by prayer and petition, with thanksgiving, present your requests to God. And the peace of God, which transcends all understanding, will guard your hearts and your minds in Christ Jesus",
+    "title": "Supplication"
   }
  ]
