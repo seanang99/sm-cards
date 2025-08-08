@@ -15,33 +15,34 @@ In the book of Jeremiah, Chapter 31, God declares:
 In the book of Psalm, Chapter 119, the Psalmist writes:
 > How can a young man keep his way pure? By living according to your word. I have hidden your word in my heart that I might not sin against you. - Psalm 119:9,11 (NIV 84)
 
+___
 
 ## Functions:
 1. View memory bible verses according to TMS 60 (Topical Memory System) `✅`
 2. Filter by memory packs `✅`
 3. Test Mode which hides the title and verse and replaces it with input for the user to test themselves. `✅`
 4. Add new verses from DEP 242 `[in-progress]`
+5. Improve filtering of memory packs, allow multi-select
+6. Scroll-to-top button
 
 ### Testing & Gamification
 1. Improve testing mechanism - see scoring
 2. Randomise Cards
 3. Testing - Title Only
-4. Testing - Missing words
-5. Memory-match Game (probably web-only)
+4. Testing - Missing words _(randomised)_
+5. Memory-match Game _(probably web-only)_
+6. Fast testing
 
 ### Scoring
 1. Validate input based on Uni Navigators Scripture Memory Contest rules `[to-do]`
 2. Scoring Mechanism `[to-do]`
 
-### User Authentication
-1. Users and Authentication - Google/Apple/Password login `[to-do]`
-2. Daily Check-in `[to-do]`
-3.  Badges and Scoreboard `[to-do]`
-
 _Note: Verses are in NIV 84._
 
 Author: Sean A, 
-Last Update: 20 Feb 2024
+Last Update: 8 Aug 2025
+
+___
 
 ## Available Scripts
 
