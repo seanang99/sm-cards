@@ -1,26 +1,39 @@
-.nav-bar {
+.nav-bar__right {
   display: flex;
   align-items: center;
-  padding: 10px 40px;
-  background-color: #ffffff;
+  gap: 1rem;
+}
 
-  &__right {
-    display: flex;
-    align-items: baseline;
-    gap: 20px;
+.pack-selector-btn {
+  white-space: nowrap;
+  min-width: 120px;
+  text-align: left;
+  font-size: 0.875rem;
+}
+
+// Mobile responsive
+@media screen and (max-width: 576px) {
+  .nav-bar__right {
+    gap: 0.5rem;
   }
 
-  &__score {
-    white-space: nowrap;
+  .pack-selector-btn {
+    font-size: 0.75rem;
+    padding: 0.375rem 0.75rem;
+    min-width: 100px;
+  }
+
+  .form-check-label {
+    font-size: 0.875rem;
   }
 }
 
-.form-check-label {
-    width: max-content;
-}
-
-.navbar-brand {
-  font-weight: 600;
+@media screen and (max-width: 420px) {
+  .pack-selector-btn {
+    max-width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
 }
 
 // /* import bootstrap to set changes */

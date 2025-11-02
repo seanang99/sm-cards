@@ -7,10 +7,16 @@
 
 .page-body {
     display: flex;
+    align-items: flex-start;
     justify-content: space-evenly;
     flex-wrap: wrap;
     font-weight: bold;
     margin: 5rem 2rem 2rem 2rem;
+
+  // Ensure cards don't stretch
+    > * {
+      align-self: flex-start;
+    }
 }
 
 @media screen and (max-width: 420px) {

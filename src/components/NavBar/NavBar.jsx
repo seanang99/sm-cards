@@ -1,18 +1,43 @@
-import React from "react";
+import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
 import Form from "react-bootstrap/Form";
+import Button from "react-bootstrap/Button";
+import PackSelector from "./PackSelector/PackSelector";
 
 import "./style.scss";
 
 /**
- * Renders NavBar component with props to control the test-mode selection and memory pack
- * @params {testMode, setTestMode, setPack} props
+ * Renders NavBar component with enhanced pack selection
+ * @params {testMode, setTestMode, selectedPacks, onPacksChange, packs, allVerses} props
  * @returns NavBar component
  */
 const NavBar = (props) => {
-  const { isTestMode, testMode, setTestMode, pack, setPack } = props;
+  const {
+    isTestMode,
+    testMode,
+    setTestMode,
+    selectedPacks,
+    onPacksChange,
+    packs,
+    allVerses
+  } = props;
 
+  const [showPackSelector, setShowPackSelector] = useState(false);
+
+	const getSelectionSummary = () => {
+	    if (!selectedPacks || Object.keys(selectedPacks).length === 0) {
+	      return "Select Packs";
+	    }
+
+	    const packCount = Object.keys(selectedPacks).length;
+	    const verseCount = Object.values(selectedPacks).reduce(
+	      (sum, pack) => sum + pack.verses.length,
+	      0
+	    );
+
+	    return `${packCount} Pack${packCount !== 1 ? 's' : ''}, ${verseCount} Verse${verseCount !== 1 ? 's' : ''}`;
+	  };
   return (
     <>
       <Navbar fixed="top" bg="light" expand="lg">
@@ -34,23 +59,27 @@ const NavBar = (props) => {
             ) : (
               <></>
             )}
-            <Form.Select
-              className="nav-bar__select"
+            <Button
+              variant="outline-primary"
+              size="sm"
+              className="pack-selector-btn"
               aria-label="Select Memory Verse Pack"
-              onChange={(e) => setPack(e.target.value)}
+              onClick={() => setShowPackSelector(true)}
             >
-              <option>Select Pack</option>
-              {pack.map((p) => {
-                return (
-                  <option key={p.id} id={p.id} value={p.packs}>
-                    {p.packs}
-                  </option>
-                );
-              })}
-            </Form.Select>
+              {getSelectionSummary()}
+            </Button>
           </div>
         </Container>
       </Navbar>
+
+      <PackSelector
+        show={showPackSelector}
+        onHide={() => setShowPackSelector(false)}
+        packs={packs}
+        allVerses={allVerses}
+        currentSelection={selectedPacks}
+        onApply={onPacksChange}
+      />
     </>
   );
 };

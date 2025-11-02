@@ -1,0 +1,97 @@
+.accordion-header {
+  cursor: pointer;
+
+  .form-check {
+    cursor: pointer;
+
+    input[type="checkbox"] {
+      cursor: pointer;
+    }
+  }
+
+  .flex-grow-1 {
+    cursor: pointer;
+  }
+}
+
+.verse-list {
+   padding-left: 0.5rem;
+
+   .memory-pack-group {
+     .memory-pack-header {
+       display: flex;
+       align-items: center;
+       padding: 0.5rem 0;
+       border-bottom: 1px solid #e9ecef;
+       .badge {
+         font-size: 0.75rem;
+       }
+     }
+   }
+
+   .form-check {
+     margin-bottom: 0.5rem;
+
+     label {
+       cursor: pointer;
+       user-select: none;
+
+       &:hover {
+         color: #0d6efd;
+       }
+     }
+   }
+ }
+
+.range-selector {
+  .input-group {
+    .form-control {
+      text-align: center;
+    }
+  }
+}
+
+// Scrollbar styling for verse list
+.verse-list::-webkit-scrollbar {
+  width: 8px;
+}
+
+.verse-list::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+.verse-list::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+.verse-list::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+// Mobile responsive adjustments
+@media screen and (max-width: 576px) {
+  .range-selector {
+    .input-group {
+      flex-wrap: wrap;
+
+      .form-control,
+      .input-group-text {
+        flex: 0 0 auto;
+      }
+
+      .btn {
+        flex: 1 0 100%;
+        margin-top: 0.5rem;
+      }
+    }
+  }
+
+  .modal-footer {
+    .btn {
+      flex: 1;
+      min-width: 100px;
+    }
+  }
+}

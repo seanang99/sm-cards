@@ -9,54 +9,34 @@
   },
   {
     "id": 2,
-    "packs": "TMS 60 - A"
-  },
-  {
-    "id": 3,
-    "packs": "TMS 60 - B"
-  },
-  {
-    "id": 4,
-    "packs": "TMS 60 - C"
-  },
-  {
-    "id": 5,
-    "packs": "TMS 60 - D"
-  },
-  {
-    "id": 6,
-    "packs": "TMS 60 - E"
-  },
-  {
-    "id": 7,
     "packs": "AoS"
   },
   {
-    "id": 8,
+    "id": 3,
     "packs": "Quiet Time"
   },
   {
-    "id": 9,
+    "id": 4,
     "packs": "The Word"
   },
   {
-    "id": 10,
+    "id": 5,
     "packs": "Prayer"
   },
   {
-    "id": 11,
+    "id": 6,
     "packs": "Fellowship"
   },
   {
-    "id": 12,
+    "id": 7,
     "packs": "Witnessing"
   },
   {
-    "id": 13,
+    "id": 8,
     "packs": "Lordship"
   },
   {
-    "id": 14,
+    "id": 9,
     "packs": "World Vision"
   }
  ]
