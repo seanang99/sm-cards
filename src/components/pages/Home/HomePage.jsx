@@ -11,7 +11,6 @@ const HomePage = () => {
   const [packs, setPacks] = useState([]);
   const [allVerses, setAllVerses] = useState([]);
   const [verses, setVerses] = useState([]);
-  const [mvPack, setMvPack] = useState("");
   const [selectedPacks, setSelectedPacks] = useState({});
   const [score, setScore] = useState(0);
 
