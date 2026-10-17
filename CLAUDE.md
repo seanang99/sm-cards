@@ -1,3 +1,7 @@
+## Git workflow
+
+Never push directly to `main`. Always create a pull request for changes and get it approved before merging — including for Claude Code's own commits.
+
 ## Agent skills
 
 ### Issue tracker
