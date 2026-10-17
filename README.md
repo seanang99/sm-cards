@@ -44,6 +44,10 @@ Last Update: 8 Aug 2025
 
 ___
 
+## Documentation
+
+For a technical overview of the codebase — component tree, data flow, and sequence diagrams — see [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md).
+
 ## Available Scripts
 
 In the project directory, you can run:
