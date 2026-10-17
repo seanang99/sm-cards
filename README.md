@@ -67,6 +67,12 @@ You may also see any lint errors in the console.
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+### `npm run test:e2e`
+
+Runs the Playwright end-to-end test suite against a locally-started dev server, on both a desktop and a mobile viewport. Runs automatically on pull requests via GitHub Actions.
+
+Use `npm run test:e2e:ui` to run the same suite in Playwright's interactive UI mode.
+
 ### `npm run build`
 
 Builds the app for production to the `build` folder.\
