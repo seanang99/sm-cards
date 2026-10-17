@@ -1,0 +1,35 @@
+.scroll-to-top-btn {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  z-index: 1030; // above page content, below Bootstrap modals/navbars
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: none;
+  background-color: rgba(57, 57, 57, 0.85);
+  color: #ffffff;
+  font-size: 1.25rem;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: opacity 0.2s ease, background-color 0.2s ease;
+
+  &:hover,
+  &:focus {
+    background-color: rgba(57, 57, 57, 1);
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .scroll-to-top-btn {
+    bottom: 1rem;
+    right: 1rem;
+    width: 40px;
+    height: 40px;
+    font-size: 1.1rem;
+  }
+}

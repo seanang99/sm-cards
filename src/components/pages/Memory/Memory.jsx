@@ -1,6 +1,7 @@
 import { React, useState, useEffect } from "react";
 import NavBar from "../../NavBar";
 import Footer from "../../Footer/Footer";
+import ScrollToTop from "../../ScrollToTop";
 import data from "../../../resources/memoryVerses.json";
 import dataPacks from "../../../resources/packs.json";
 import "./style.scss";
@@ -65,6 +66,7 @@ const Memory = () => {
           </div>
         )}
       </div>
+      <ScrollToTop />
       <Footer />
     </div>
   );
