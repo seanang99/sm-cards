@@ -2,6 +2,7 @@ import { React, useState, useEffect } from "react";
 import Cards from "../../Cards";
 import NavBar from "../../NavBar";
 import Footer from "../../Footer/Footer";
+import ScrollToTop from "../../ScrollToTop";
 import data from "../../../resources/memoryVerses.json";
 import dataPacks from "../../../resources/packs.json";
 import "./style.scss";
@@ -96,6 +97,7 @@ const HomePage = () => {
           </div>
         )}
       </div>
+      <ScrollToTop />
       <Footer />
     </div>
   );
