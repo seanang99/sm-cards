@@ -12,7 +12,7 @@ const Memory = () => {
   const [packs, setPacks] = useState([]);
   const [allVerses, setAllVerses] = useState([]);
   const [verses, setVerses] = useState([]);
-  const [mvPack, setMvPack] = useState("");
+  const [selectedPacks, setSelectedPacks] = useState({});
   // const [score, setScore] = useState(0);
 
   // Get Memory Packs and all verses on load
@@ -27,16 +27,33 @@ const Memory = () => {
     getVerses();
   }, []);
 
-  // Filter verses to display when mvPack is selected
+  // Filter verses to display when selectedPacks changes
   useEffect(() => {
-    const filterMemoryVerses = (memory_pack) => {
-      if (memory_pack === 'TMS 60') {
-        return allVerses.filter((v) => (v.memory_pack.includes("TMS 60")));
+    const filterMemoryVerses = (packsSelection) => {
+      if (!packsSelection || Object.keys(packsSelection).length === 0) {
+        return [];
       }
-      return allVerses.filter((v) => (v.memory_pack === memory_pack));
+
+      const selectedVerseIds = new Set();
+
+      // Collect all selected verse IDs from all packs
+      Object.keys(packsSelection).forEach((packName) => {
+        const packData = packsSelection[packName];
+        packData.verses.forEach((verseId) => {
+          selectedVerseIds.add(verseId);
+        });
+      });
+
+      // Filter verses that match the selected IDs
+      return allVerses.filter((v) => selectedVerseIds.has(v.id));
     };
-    setVerses(filterMemoryVerses(mvPack));
-  }, [allVerses, mvPack]);
+
+    setVerses(filterMemoryVerses(selectedPacks));
+  }, [allVerses, selectedPacks]);
+
+  const handlePacksChange = (newSelection) => {
+    setSelectedPacks(newSelection);
+  };
 
   return (
     <div className="page-layout">
@@ -44,8 +61,10 @@ const Memory = () => {
         <NavBar
           testMode={testMode}
           setTestMode={setTestMode}
-          pack={packs}
-          setPack={setMvPack}
+          selectedPacks={selectedPacks}
+          onPacksChange={handlePacksChange}
+          packs={packs}
+          allVerses={allVerses}
           score={0}
         />
       </header>
@@ -60,9 +79,9 @@ const Memory = () => {
             </>
           </>
         ) : (
-          <div>
-            <p> Memory Game </p>
-            <p> Please select a Memory Pack</p>
+          <div className="empty-state">
+            <p>Memory Game</p>
+            <p className="text-muted">Click "Select Packs" above to choose verses</p>
           </div>
         )}
       </div>
