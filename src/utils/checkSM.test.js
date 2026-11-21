@@ -23,12 +23,12 @@ describe('checkSM', () => {
         }
 
         const res = checkTitleAndVerse(data)
-        const ex_res = { score: 0, correct: true }
+        const ex_res = { correct: true, correctTitle: true, correctVerse: true }
 
         expect(res).toEqual(ex_res);
     })
 
-    test('incorrect title but correct verse should result in a score: 1', () => {
+    test('incorrect title but correct verse should be marked incorrect overall', () => {
         const data = {
             title: defaultTitle,
             verse: defaultVerse,
@@ -37,12 +37,12 @@ describe('checkSM', () => {
         }
 
         const res = checkTitleAndVerse(data)
-        const ex_res = { score: 1, correct: false }
+        const ex_res = { correct: false, correctTitle: false, correctVerse: true }
 
         expect(res).toEqual(ex_res);
     })
 
-    test('correct title but incorrect verse should result in a score: 5 if there are more than 5 mistakes', () => {
+    test('correct title but incorrect verse should be marked incorrect overall', () => {
         const data = {
             title: defaultTitle,
             verse: defaultVerse,
@@ -51,12 +51,12 @@ describe('checkSM', () => {
         }
 
         const res = checkTitleAndVerse(data)
-        const ex_res = { score: 5, correct: false }
+        const ex_res = { correct: false, correctTitle: true, correctVerse: false }
 
         expect(res).toEqual(ex_res);
     })
 
-    test('correct title but partially incorrect verse with 1 missing word should result in a score: 1', () => {
+    test('correct title but verse missing a word should be marked incorrect overall', () => {
         const data = {
             title: defaultTitle,
             verse: defaultVerse,
@@ -65,12 +65,12 @@ describe('checkSM', () => {
         }
 
         const res = checkTitleAndVerse(data)
-        const ex_res = { score: 1, correct: false }
+        const ex_res = { correct: false, correctTitle: true, correctVerse: false }
 
         expect(res).toEqual(ex_res);
     })
 
-    test('correct title but partially incorrect verse with 1 extra word should result in a score: 1', () => {
+    test('correct title but verse with an extra word should be marked incorrect overall', () => {
         const data = {
             title: defaultTitle,
             verse: defaultVerse,
@@ -79,13 +79,13 @@ describe('checkSM', () => {
         }
 
         const res = checkTitleAndVerse(data)
-        const ex_res = { score: 1, correct: false }
+        const ex_res = { correct: false, correctTitle: true, correctVerse: false }
 
         expect(res).toEqual(ex_res);
     })
 
 
-    test('completely incorrect title and verse should result in a score of 5', () => {
+    test('completely incorrect title and verse should be marked incorrect overall', () => {
         const data = {
             title: defaultTitle,
             verse: defaultVerse,
@@ -94,7 +94,7 @@ describe('checkSM', () => {
         }
 
         const res = checkTitleAndVerse(data)
-        const ex_res = { score: 5, correct: false }
+        const ex_res = { correct: false, correctTitle: false, correctVerse: false }
         expect(res).toEqual(ex_res);
     })
 })
@@ -116,7 +116,7 @@ describe('FindLongestCommonSubsequence', () => {
     })
 
     test('B & C', () => {
-        const results = { result: 1, subStrings: [{ subString: ["this"], startIndex: 1, endIndex: 2 }, { subString: ["is"], startIndex: 2, endIndex: 3 }, { subString: ["testimony"], startIndex: 5, endIndex: 6 }] }
+        const results = { result: 1, subStrings: [{ subString: ["this"], startIndex: 1, endIndex: 2 }, { subString: ["is"], startIndex: 3, endIndex: 4 }, { subString: ["testimony"], startIndex: 5, endIndex: 6 }] }
         expect(findLongestCommonSubsequence(B, C, B.length, C.length)).toStrictEqual(results);
     })
 
