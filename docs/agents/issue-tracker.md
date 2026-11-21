@@ -14,7 +14,13 @@ Issues and specs for this repo live as GitHub issues. Use the `gh` CLI for all o
 
 Infer the repo from `git remote -v`; `gh` does this automatically when run inside a clone.
 
-> Note: the `gh` CLI installed in this environment (checked 2026-10-18) is a very old build — it has no `gh label`, `gh issue edit`, or `--json`/`--jq` flags. Fall back to `gh api repos/<owner>/<repo>/<path>` for anything that needs those: `-X PATCH -F body=@file` to edit an issue body, `-F name=... -F color=...` to create a label, and pipe GET responses through a JSON parser (e.g. `python3 -c "import json,sys; ..."`) in place of `--jq`.
+> Note: the `gh` CLI installed in this environment (checked 2026-11-21) is a very old build (1.1.0) — it has no `gh label`, `gh issue edit`, `gh issue comment`, `--comment` on `gh issue close`, or `--json`/`--jq` flags. `gh issue <command>` on this build only supports: `close`, `create` (`-t`/`-b`/`-l`/`-a` all work), `list`, `reopen`, `status`, `view` (plain, no `--json`). Verified working replacements via `gh api`:
+> - **Comment**: `echo '{"body":"..."}' | gh api -X POST repos/<owner>/<repo>/issues/<n>/comments --input -` (`-f body=...` also works for single-line bodies without special JSON chars; prefer the JSON-stdin form for anything with backticks/newlines)
+> - **Add label(s)**: `echo '{"labels":["name1","name2"]}' | gh api -X POST repos/<owner>/<repo>/issues/<n>/labels --input -` — `-f 'labels[]=name'` does **not** work on this build (GitHub's REST API wants a real JSON array, and this `gh`'s `-f`/`-F` flags can't produce one)
+> - **Remove a label**: `gh api -X DELETE repos/<owner>/<repo>/issues/<n>/labels/<name>`
+> - **Close with a comment**: post the comment first (above), then `gh issue close <n>` (no flags)
+> - **Read with structured fields**: `gh api repos/<owner>/<repo>/issues/<n>` (or `/issues?state=open` for listing), piped through a JSON parser (e.g. `python3 -c "import json,sys; ..."`) in place of `--json`/`--jq`
+> - **Edit an issue body**: `-X PATCH -F body=@file`
 
 ## Pull requests as a triage surface
 
